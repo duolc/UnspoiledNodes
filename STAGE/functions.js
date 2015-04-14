@@ -38,55 +38,23 @@ function padLeft(val){
 
 updateClock();
 
-/*Build out Fishing Table from fishing.json*/
- $.getJSON('fishing.json', function(data) {
- 	var templateData = {fishes: data};
- 	var templateHtml = $('#fishingTable').html();
- 	var template = Handlebars.compile(templateHtml);
- 	var compiledTemplate = template(templateData);
- 	$('#fishinglist').replaceWith(compiledTemplate);
- 	// $('#fishing-container').html(compiledTemplate);
-
- 	/*Now add sortable table headers*/
- 	/*Needs to run in this script or will not read table to make sortable*/
- 	$("#fishinglist")
- 	.tablesorter({
- 		headers: {
- 			3: {sorter:false}
- 		}
- 	});
-
- /*Initiate Mouseover Events for Table*/
- /*Needs to run in this script or will not start hidden*/
-  $(".fishlink")
-  		.mouseout(function() {
-      $(this).children(".flink").hide();
-  })
-  		.mouseover(function() {
-      $(this).children(".flink").show();
-  });
- });
-
-/*Build out UnspoiledNodes Table from botmin.json*/
-$.getJSON('botmin.json', function(data) {
-	var templateData = {nodes: data};
-	var templateHtml = $('#nodesTable').html();
+/* Abstraction function for AJAX call and template compilation */
+function populateTemplateTable(jsonFile, templateId, containerId) {
+  $.getJSON(jsonFile, function(data) {
+	var templateData = {rows: data};
+	var templateHtml = $('#' + templateId + '').html();
 	var template = Handlebars.compile(templateHtml);
 	var compiledTemplate = template(templateData);
-	$('#unspoilednodeslist').replaceWith(compiledTemplate);
-	$('#fishing-container').html(compiledTemplate);
-
-	/*Now add sortable table headers*/
-	/*Needs to run in this script or will not read table to make sortable*/
-	$("#unspoilednodeslist")
-	.tablesorter({
+	$('#' + containerId + '').replaceWith(compiledTemplate);
+	$('#' + containerId + '').tablesorter({
 		headers: {
 			3: {sorter:false}
 		}
 	});
-});
-/* Slide Bar and Filtering for Tables */
+  });
+}
 
+/* Slide Bar and Filtering for Tables */
 /*Mining*/
 
 function outputMineUpdate(minelvl) {

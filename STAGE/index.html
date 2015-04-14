@@ -4,8 +4,6 @@
 		<title>Unspoiled Nodes</title>
 		<?php include_once("analyticstracking.php") ?>
 		<link href="style.css" rel="stylesheet" type="text/css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
 	</head>
 	<body id="visible">
 		<div class="navigation" align="center">
@@ -51,14 +49,20 @@
 					</td>
 				</tr>
 		</table>
-		<div id="unspoilednodeslist" stype="align:center">LOADING</div>
+		<div id="unspoilednodeslist" style="text-align:center">LOADING</div>
 		<div class="version">Version 1.5 - April 2, 2015</div>
 		<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
 	<footer>
 	</footer>
-	<script type="text/javascript" src="functions.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+    <script src="tablesort/jquery.tablesorter.js"></script>
+	<script src="functions.js"></script>
+    <script>
+      populateTemplateTable('botmin.json', 'nodesTable', 'unspoilednodeslist');
+    </script>
 	<script id="nodesTable" type="text/x-handlebars-template">
-	<table id="minebottable" class="maintable sortable">
+	<table id="unspoilednodeslist" class="maintable sortable">
 		<thead bgcolor="#D2D2D2">
 		  <th width="97" height="25px" scope="col">Type</th>
 		  <th width="242" scope="col">Item</th>
@@ -71,8 +75,8 @@
 		  <th width="404" scope="col">Min Perception for HQ</th>
 		</thead>
 		<tbody>
-			{{#each nodes}}
 				<tr>
+			{{#each rows}}
 					<td>{{Type}}</td>
 					<td>{{Item}}</td>
 					<td>{{Slot}}</td>
