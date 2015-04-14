@@ -8,7 +8,8 @@
     "Region":"Dragonhead",
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -19,7 +20,8 @@
     "Region":"Raincatcher Gully",
     "ClosestAetheryte":"Wineport",
     "MinGathering":"420",
-    "MinPerceptionforHQ":"420"
+    "MinPerceptionforHQ":"420",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -41,7 +43,8 @@
     "Region":"Wellwick Wood",
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -74,7 +77,8 @@
     "Region":"Raubahn's Push",
     "ClosestAetheryte":"Ceruleum Processing Plant ",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -85,7 +89,8 @@
     "Region":"Raubahn's Push",
     "ClosestAetheryte":"Ceruleum Processing Plant ",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -96,7 +101,8 @@
     "Region":"Raubahn's Push",
     "ClosestAetheryte":"Ceruleum Processing Plant ",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -118,7 +124,8 @@
     "Region":"Lost Hope",
     "ClosestAetheryte":"Black Brush Station",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -129,7 +136,8 @@
     "Region":"Lost Hope",
     "ClosestAetheryte":"Black Brush Station",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -140,7 +148,8 @@
     "Region":"Lost Hope",
     "ClosestAetheryte":"Black Brush Station",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -151,7 +160,8 @@
     "Region":"Broken Water",
     "ClosestAetheryte":"Little Ala Mhingo",
     "MinGathering":"420",
-    "MinPerceptionforHQ":"420"
+    "MinPerceptionforHQ":"420",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -162,7 +172,7 @@
     "Region":"Zephyr Drift",
     "ClosestAetheryte":"Summerford Farms",
     "MinGathering":"420",
-  "MinPerceptionforHQ":"420"
+    "MinPerceptionforHQ":"420"
   },
   {
     "Type":"Mining",
@@ -173,7 +183,8 @@
     "Region":"Wellwick Wood",
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -184,7 +195,8 @@
     "Region":"Hammerlea",
     "ClosestAetheryte":"Horizon",
     "MinGathering":"353",
-    "MinPerceptionforHQ":"332"
+    "MinPerceptionforHQ":"332",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -228,7 +240,8 @@
     "Region":"Roots Lake",
     "ClosestAetheryte":"Camp Tranquil",
     "MinGathering":"353",
-    "MinPerceptionforHQ":"332"
+    "MinPerceptionforHQ":"332",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -239,7 +252,8 @@
     "Region":"Rootslake",
     "ClosestAetheryte":"Camp Tranquil",
     "MinGathering":"353",
-    "MinPerceptionforHQ":"332"
+    "MinPerceptionforHQ":"332",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -294,7 +308,8 @@
     "Region":"Quarterstone",
     "ClosestAetheryte":"Swiftperch",
     "MinGathering":"450",
-    "MinPerceptionforHQ":"450"
+    "MinPerceptionforHQ":"450",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -327,7 +342,8 @@
     "Region":"The Burning Wall",
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -338,7 +354,8 @@
     "Region":"The Burning Wall",
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -448,7 +465,8 @@
     "Region":"Raincatcher Gully",
     "ClosestAetheryte":"Wineport",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -459,7 +477,8 @@
     "Region":"Ceruleam Processing Plant",
     "ClosestAetheryte":"Ceruleam Processing Plant",
     "MinGathering":"450",
-    "MinPerceptionforHQ":"450"
+    "MinPerceptionforHQ":"450",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
@@ -492,7 +511,8 @@
     "Region":"Moraby Bay",
     "ClosestAetheryte":"Moraby Drydocks",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -503,7 +523,8 @@
     "Region":"Moraby Bay",
     "ClosestAetheryte":"Moraby Drydocks",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -514,7 +535,8 @@
     "Region":"Zephyr Drift",
     "ClosestAetheryte":"Summerford Farms",
     "MinGathering":"353",
-    "MinPerceptionforHQ":"332"
+    "MinPerceptionforHQ":"332",
+    "Flag":"M"
   },
   {
     "Type":"Mining",
@@ -525,7 +547,8 @@
     "Region":"Dragonhead",
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
   },
   {
     "Type":"Botany",
