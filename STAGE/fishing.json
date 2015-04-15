@@ -8,8 +8,10 @@
 		"bait":"Yumizuno",
 		"mooch":"",
 		"minGathering":"290",
-		"description":"Coming Soon!"
-	},
+		"description":[
+									{	"href": "http://xivdb.com/?item/7693/Navigator%27s-Brand",
+										"rel": "See this on FFXIVDB"
+	}]},
 	{
 		"fishName":"Octomammoth",
 		"spawnTime":"7am to 5pm",

@@ -70,6 +70,24 @@ body {
     margin-right: auto;
 }
 
+.helper {
+	text-align: center;
+	font-size: small;
+	color: white;
+}
+
+#highlight tr:hover {
+	background-color: #CDC9C9;
+	color:black;
+
+}
+
+.theitem {
+	/*font-variant: small-caps;*/
+	font-weight: bold;
+}
+
+
 /*These are the Selector Buttons*/
 .M {
 		background-color:#4E342E;
@@ -545,32 +563,53 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 /*Sortable table Header Style*/
 table.tablesorter thead tr .header {
-		background-image: url(Images/bg.gif);
+		/*background-image: url(Images/bg.gif);
 		background-repeat: no-repeat;
-		background-position: center right;
-		cursor: pointer;
+		background-position: center right;*/
+		cursor: ns-resize;
 }
 
 table.tablesorter thead tr .headerSortUp {
-		background-image: url(Images/asc.gif);
+		/*background-image: url(Images/asc.gif);*/
+		cursor: s-resize;
 }
 
 table.tablesorter thead tr .headerSortDown {
-		background-image: url(Images/desc.gif);
+		/*background-image: url(Images/desc.gif);*/
+		cursor: n-resize
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
 		background-color: #8dbdd8;
 }
 
-a.moreinfo {
-		position: relative;
-		display: inline;
-		cursor: alias;
-		z-index: 10;
+.moreinfo span {
+	background-color: #2F4F4F;
+	border-style: 3px groove white;
+	border-radius: 3px;
+	color: white;
+	position: relative;
+  text-align: center;
+	top: -25px;
+	left: 0px;
+	display:none;
+	padding:0 20px;
+	
+}
+
+.moreinfo span:after {
+		content:'';
+    position:absolute;
+    background:#f8f8f8;
+}
+
+.moreinfo:hover span{
+    display:block;
+		position: absolute;
+		padding: 15px;
 }
 
 a.nolink {
-		text-decoration: none;
-		color: #D7CCC8;
+		text-decoration: inherit;
+		color: inherit;
 	}

@@ -81,7 +81,7 @@ $.getJSON('botmin.json', function(data) {
 	$("#unspoilednodeslist")
 	.tablesorter({
 		headers: {
-			4: {sorter:false}
+			2: {sorter:false}
 		}
 	});
 

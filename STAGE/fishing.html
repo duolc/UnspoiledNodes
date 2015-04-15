@@ -101,10 +101,10 @@
 				<th width="404" scope="col">Min Gathering</th>
 			</tr>
 		</thead>
-		<tbody>
+		<tbody id="highlight">
 			{{#each fishes}}
 				<tr class="F fnodes {{#if mooch}} MCH{{/if}}">
-					<td> <a href="#" class="nolink {{#if description}}fishlink tooltip animate{{/if}}">{{fishName}} </a></td>
+					<td class="nolink {{#if description}}fishlink moreinfo{{/if}}">{{fishName}}<span>{{description}}</span></td>
 					<td>{{spawnTime}}</td>
 					<td>{{zone}}</td>
 					<td>{{coordinates}}</td>
