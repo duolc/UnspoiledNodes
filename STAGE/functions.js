@@ -67,6 +67,15 @@ updateClock();
   // });
  });
 
+ // Handlebars.registerHelper('description', function(object) {
+ //   var url = Handlebars.escapeExpression(object.url),
+ //       text = Handlebars.escapeExpression(object.text);
+ //
+ //   return new Handlebars.SafeString(
+ //     "<a href='" + url + "'>" + text + "</a>"
+ //   );
+ // });
+
 /*Build out UnspoiledNodes Table from botmin.json*/
 $.getJSON('botmin.json', function(data) {
 	var templateData = {nodes: data};
@@ -99,7 +108,7 @@ $('#minelvl').on('change', function(event) {
 	var curVal = this.value;
 	$('.M').hide("slow");
 	$('.M').filter(function() {
-		return $('td:nth-child(8)', this).last().html() <= curVal;
+		return $('td:nth-child(7)', this).last().html() <= curVal;
 	}).show("slow");
 });
 
@@ -114,7 +123,7 @@ $('#botlvl').on('change', function(event) {
 	var curVal = this.value;
 	$('.B').fadeOut("slow");
 	$('.B').filter(function() {
-		return $('td:nth-child(8)', this).last().html() <= curVal;
+		return $('td:nth-child(7)', this).last().html() <= curVal;
 	}).show("slow");
 });
 

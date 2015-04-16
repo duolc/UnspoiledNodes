@@ -80,6 +80,7 @@
 
 		</tr>
 	</table>
+  <div class="helper">Table headers are sortable. Hover over Bait for where to buy.</div>
 	<div id="fishinglist" align:"center">LOADING</div>
 	<div class="version">Version 1.5 - April 2, 2015</div>
 	<div style="padding-top: 5%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
@@ -104,12 +105,12 @@
 		<tbody id="highlight">
 			{{#each fishes}}
 				<tr class="F fnodes {{#if mooch}} MCH{{/if}}">
-					<td class="nolink {{#if description}}fishlink moreinfo{{/if}}">{{fishName}}<span>{{description}}</span></td>
+					<td class="nolink {{#if link}}fishlink moreinfo{{/if}}">{{fishName}}<span><a class="nolink" href="{{link}}" target="_blank">{{text}}</td></span></td>
 					<td>{{spawnTime}}</td>
 					<td>{{zone}}</td>
 					<td>{{coordinates}}</td>
 					<td>{{weather}}</td>
-					<td>{{bait}}</td>
+					<td class="nolink {{#if ObtainedBy}}fishlink moreinfo{{/if}}">{{bait}}<span><a class="nolink" href="{{BaitLink}}" target="_blank">{{ObtainedBy}}</td></span></td>
 					<td>{{mooch}}</td>
 					<td>{{minGathering}}</td>
 				</tr>

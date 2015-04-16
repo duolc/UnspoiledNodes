@@ -576,7 +576,7 @@ table.tablesorter thead tr .headerSortUp {
 
 table.tablesorter thead tr .headerSortDown {
 		/*background-image: url(Images/desc.gif);*/
-		cursor: n-resize
+		cursor: n-resize;
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
@@ -590,11 +590,11 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 	color: white;
 	position: relative;
   text-align: center;
-	top: -25px;
+	top: -10px;
 	left: 0px;
 	display:none;
 	padding:0 20px;
-	
+	transition:2s;
 }
 
 .moreinfo span:after {
