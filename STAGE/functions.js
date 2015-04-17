@@ -241,3 +241,18 @@ $('#Windy').change(function () {
   if (!this.checked) $('.Windy').fadeOut('slow');
     else $('.Windy').fadeIn('slow');
 });
+
+/*tooltip Follows Cursor*/
+var tooltip = document.querySelectorAll('.tooltip');
+
+document.addEventListener('mousemove', fn, false);
+
+function fn(e) {
+    for (var i=tooltip.length; i--;) {
+        tooltip[i].style.left = e.pageX + 'px';
+        tooltip[i].style.top = e.pageY + 'px';
+    }
+}
+$('.tooltip').fadeOut(2000, function(){
+    $('.tooltip').fadeIn(2000);
+});

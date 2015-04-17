@@ -94,8 +94,8 @@
 			<tr bgcolor="#D2D2D2">
 				<th width="400" height="25px" scope="col">Fish Name</th>
 				<th width="400" scope="col">Spawn Time</th>
-				<th width="600" scope="col">Zone</th>
-				<th width="400" scope="col">Coordinates</th>
+				<th width="900" scope="col">Zone</th>
+				<th width="100" scope="col">(X,Y)</th>
 				<th width="400" scope="col">Weather</th>
 				<th width="400" scope="col">Bait</th>
 				<th width="404" scope="col">Mooch</th>
@@ -105,12 +105,28 @@
 		<tbody id="highlight">
 			{{#each fishes}}
 				<tr class="F fnodes {{#if mooch}} MCH{{/if}}">
-					<td class="nolink {{#if link}}fishlink moreinfo{{/if}}">{{fishName}}<span><a class="nolink" href="{{link}}" target="_blank">{{text}}</td></span></td>
+					<td>{{fishName}}<span class="tooltip"><ul><li>{{text}}</li><ul></td></span></td>
 					<td>{{spawnTime}}</td>
 					<td>{{zone}}</td>
 					<td>{{coordinates}}</td>
 					<td>{{weather}}</td>
-					<td class="nolink {{#if ObtainedBy}}fishlink moreinfo{{/if}}">{{bait}}<span><a class="nolink" href="{{BaitLink}}" target="_blank">{{ObtainedBy}}</td></span></td>
+					<td class="nolink {{#if ObtainedBy}}fishlink tooltipinfo{{/if}}">{{bait}}
+            <span class="tooltip">
+              {{#if NPC}}
+                <ul>
+                  <h3>{{ObtainedBy}}</h3>
+                  {{#if NPC}}<li>{{NPC}}</li>{{/if}}
+                  {{#if NPC1}}<li>{{NPC1}}</li>{{/if}}
+                  {{#if NPC2}}<li>{{NPC2}}</li>{{/if}}
+                <ul>
+              {{else}}
+                <ul>
+                  <h3>Crafted By</h3>
+                  <li>{{ObtainedBy}}</li>
+                </ul>
+              {{/if}}
+            </span>
+          </td>
 					<td>{{mooch}}</td>
 					<td>{{minGathering}}</td>
 				</tr>
