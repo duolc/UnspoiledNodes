@@ -253,6 +253,3 @@ function fn(e) {
         tooltip[i].style.top = e.pageY + 'px';
     }
 }
-$('.tooltip').fadeOut(2000, function(){
-    $('.tooltip').fadeIn(2000);
-});

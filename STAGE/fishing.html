@@ -95,6 +95,7 @@
 				<th width="400" height="25px" scope="col">Fish Name</th>
 				<th width="400" scope="col">Spawn Time</th>
 				<th width="900" scope="col">Zone</th>
+        <th width="900" scope="col">Fishing Hole</th>
 				<th width="100" scope="col">(X,Y)</th>
 				<th width="400" scope="col">Weather</th>
 				<th width="400" scope="col">Bait</th>
@@ -108,6 +109,7 @@
 					<td>{{fishName}}<span class="tooltip"><ul><li>{{text}}</li><ul></td></span></td>
 					<td>{{spawnTime}}</td>
 					<td>{{zone}}</td>
+          <td>{{FishingHole}}
 					<td>{{coordinates}}</td>
 					<td>{{weather}}</td>
 					<td class="nolink {{#if ObtainedBy}}fishlink tooltipinfo{{/if}}">{{bait}}
@@ -124,6 +126,14 @@
                 <ul>
                   <h3>Crafted By:</h3>
                   <li>{{ObtainedBy}}</li>
+                    <ul>
+                      {{#if Material}}<li>{{Material}}</li>{{/if}}
+                      {{#if Material1}}<li>{{Material1}}</li>{{/if}}
+                      {{#if Material2}}<li>{{Material2}}</li>{{/if}}
+                      {{#if Material3}}<li>{{Material3}}</li>{{/if}}
+                      {{#if Material4}}<li>{{Material4}}</li>{{/if}}
+                      {{#if Material5}}<li>{{Material5}}</li>{{/if}}
+                    </ul>
                 </ul>
               {{/if}}
             </span>

@@ -560,19 +560,14 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 /*Sortable table Header Style*/
 table.tablesorter thead tr .header {
-		/*background-image: url(Images/bg.gif);
-		background-repeat: no-repeat;
-		background-position: center right;*/
 		cursor: ns-resize;
 }
 
 table.tablesorter thead tr .headerSortUp {
-		/*background-image: url(Images/asc.gif);*/
 		cursor: s-resize;
 }
 
 table.tablesorter thead tr .headerSortDown {
-		/*background-image: url(Images/desc.gif);*/
 		cursor: n-resize;
 }
 
@@ -580,38 +575,10 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 		background-color: #8dbdd8;
 }
 
-/*.moreinfo span {
-	background-color: #2F4F4F;
-	border-style: 3px groove white;
-	border-radius: 3px;
-	color: white;
-	position: relative;
-  text-align: center;
-	top: -10px;
-	left: 0px;
-	display:none;
-	padding:0 20px;
-	transition:2s;
-}
-
-.moreinfo span:after {
-		content:'';
-    position:absolute;
-    background:#f8f8f8;
-}
-
-.moreinfo:hover span{
-    display:block;
-		position: absolute;
-		padding: 15px;
-}*/
-
+/*Tool Tip Style*/
 .tooltipinfo:hover .tooltip {
     display: block;
-
-
 }
-
 
 .tooltip {
 		color:White;
@@ -625,9 +592,6 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
     padding: 0px 25px 0px 0px;
     position: absolute;
     z-index: 1000;
-    /*width:200px;
-    height:100px;*/
-
 }
 
 a.nolink {
