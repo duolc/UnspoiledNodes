@@ -6,5 +6,5 @@ $.getJSON('fishing.json', function(data) {
 	$('#fishinglist').replaceWith(compiledTemplate);
 	//$('#fishing-container').html(compiledTemplate);
 	//Now sort new table
-	
+
 });

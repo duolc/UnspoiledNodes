@@ -150,7 +150,12 @@ $('#Mining').change(function () {
 /*Show or Hide Botany*/
 $('#Botany').change(function () {
     if (!this.checked) $('.B, .bslide').fadeOut('slow');
-    else $('.B, .bslide').fadeIn('slow');
+    else {
+        $('.B').filter(function() {
+  		    return $('td:nth-child(7)', this).last().html() <= $('#botlvl').val();
+	     }).fadeIn('slow');
+        $('.bslide').fadeIn('slow');
+  }
 });
 
 /*Show or Hide Mooching*/
