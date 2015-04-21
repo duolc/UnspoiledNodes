@@ -1,19 +1,14 @@
  <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8" description="FFXIV Resource for Unspoiled Nodes and Big Fishing spawns and locations Places.">
 	<title>Big Fishing</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<?php include_once("analyticstracking.php") ?>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
-	<script src="tablesort/jquery.tablesorter.js"></script>
 </head>
 <body>
 <div class="navigation" align="center">
 		<span><a href="index.html" target="_parent">Unspoiled Nodes</a></span>
 		<span><a href="fishing.html" target="_parent">Fishing</a></span>
-		<span><a href="Planned.html" target="_parent">Planned Features</a></span>
 		<span><a href="changelog.html" target="_parent">Change Log</a></span>
 		<span><a href="https://docs.google.com/forms/d/1dopCqOp1ZOt6rDg7OjQPxulr9LrELCFVKeP83_5Ne30/viewform?embedded=true" target="_blank">Feedback</a></span>
 	</div>
@@ -32,7 +27,7 @@
 			<td class="nodetier weatherbutton" style="width:225px;" ><label><input type="checkbox" id="Mooch" checked><span>Show/Hide Mooch</span></label></td>
 			<td>
 					<div class="h1" style="width:225px;">
-						<label for=fshlvl>Fishing Level:</label>
+						<label for=fshlvl>Fishing Level:&nbsp</label>
 						<output for=fshlvl id=fshgatherlvl>290</output>
 					</div>
 			</td>
@@ -82,11 +77,14 @@
 	</table>
   <div class="helper">Table headers are sortable. Hover over Bait for where to buy.</div>
 	<div id="fishinglist" align:"center">LOADING</div>
-	<div class="version">Version 1.5 - April 2, 2015</div>
-	<div style="padding-top: 5%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
+  <div class="version">Version 2.0 - April 20, 2015</div>
+	<div style="padding-top: 1%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
 	<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
 <footer>
 </footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+<script src="tablesort/jquery.tablesorter.js"></script>
 <script type="text/javascript" src="functions.js"></script>
 <script id="fishingTable" type="text/x-handlebars-template">
 	<table id="fishinglist" class="maintable tablesorter fishingsort">
@@ -105,7 +103,7 @@
 		</thead>
 		<tbody id="highlight">
 			{{#each fishes}}
-				<tr class="F fnodes {{#if mooch}} MCH{{/if}}">
+				<tr class="F fnodes {{weather}} {{#if mooch}}MCH{{/if}}">
 					<td>{{fishName}}<span class="tooltip"><ul><li>{{text}}</li><ul></td></span></td>
 					<td>{{spawnTime}}</td>
 					<td>{{zone}}</td>
@@ -144,6 +142,16 @@
 			{{/each}}
 		</tbody>
 	</table>
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61635540-1', 'auto');
+  ga('send', 'pageview');
+
 </script>
 </body>
 </html>
