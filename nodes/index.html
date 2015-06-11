@@ -1,519 +1,99 @@
 <html>
-<head>
-<link href="style.css" rel="stylesheet" type="text/css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<meta charset="utf-8">
-<title>UnspoiledNodes</title>
-</head>
+	<head>
+		<meta charset="utf-8" description="FFXIV Resource for Unspoiled Nodes and Big Fishing spawns and locations Places.">
+		<title>Unspoiled Nodes</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body id="visible">
+		<div class="navigation" align="center">
+			<span><a href="index.html" target="_parent">Unspoiled Nodes</a></span>
+			<span><a href="fishing.html" target="_parent">Fishing</a></span>
+			<span><a href="changelog.html" target="_parent">Change Log</a></span>
+			<span><a href="https://docs.google.com/forms/d/1dopCqOp1ZOt6rDg7OjQPxulr9LrELCFVKeP83_5Ne30/viewform?embedded=true" target="_blank">Feedback</a></span>
+		</div>
+		<a href="https://github.com/duolc/UnspoiledNodes">
+		<img style="position: absolute; top: 0; right: 0; border: 0;" 
+			src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" 
+			alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
+	</a>
+		<div>
+			<table class="clock" align="center" >
+				<tr>
+					<td> Current Eorzea Time: </td>
+					<td><div id='e-time'></div></td>
+				</tr>
+			</table>
+		</div>
+		<table align="center" cellspacing="10px" height="172px">
+			<thead>
+				<td class="nodetier mnodes mb"><label><input type="checkbox" id="Mining" checked><span>Mining Nodes</span></label></td>
+				<td></td>
+				<td class="nodetier bnodes bb"><label><input type="checkbox" id="Botany" checked><span>Botany Nodes</span></label></td>
+			</thead>
+				<tr>
+					<td width="300px">
+						<div class="h1 mslide">
+							<label for=minelvl>Mining Level:&nbsp</label>
+							<output for=minelvl id=mngatherlvl>450</output>
+							<p>
+								<input class="minbar" type=range min=300 max=500 value=450 id=minelvl step=1 oninput="outputMineUpdate(value)">
+							</p>
+						</div>
+					</td>
+					<td ></td>
+					<td width="300px">
+						<div class="h1 bslide">
+							<label for=botlvl>Botany Level:&nbsp</label>
+							<output for=botlvl id=btgatherlvl>450</output>
+							<p>
+								<input class="botbar" type=range min=300 max=500 value=450 id=botlvl step=1 oninput="outputBotUpdate(value)">
+							</p>
+						</div>
+					</td>
+				</tr>
+		</table>
+		<div class="helper">Table headers are sortable.</div>
+		<div id="unspoilednodeslist" style="align:center">LOADING</div>
+		<div class="version">Version 2.0 - April 20, 2015</div>
+		<div style="padding-top: 1%"><img class="roundedimg cntrimg" src="Images/choco.png" height="250" width="400"></div>
+		<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
 
-<body id="visible">
-
-	<div class="navigation" align="center">
-		<span><a href="http://duolc.info/index.html" target="_parent">Unspoiled Nodes</a></span>
-		<span><a href="http://duolc.info/fishing.html" target="_parent">Fishing</a></span>
-		<span><a href="http://duolc.info/Planned.html" target="_parent">Planned Features</a></span>
-		<span><a href="http://duolc.info/changelog.html" target="_parent">Change Log</a></span>
-		<span><a href="https://docs.google.com/forms/d/1dopCqOp1ZOt6rDg7OjQPxulr9LrELCFVKeP83_5Ne30/viewform?embedded=true" target="_blank">Feedback</a></span>
-	</div>
-	<div>		
-		<table class="clock" align="center" >
-			<tr>
-				<td> Current Eorzea Time: </td>
-				<td><div id='e-time'></div></td>
-			</tr>
-		</table>
-	</div>
-	<div>
-		<table align="center" cellspacing="10px">
-		  <tr>
-			<td class="nodetier mnodes mb"><label><input type="checkbox" id="Mining" checked><span>Mining Nodes</span></label></td>
-			<td class="nodetier bnodes bb"><label><input type="checkbox" id="Botany" checked><span>Botany Nodes</span></label></td>
-		  </tr>
-		</table>
-	</div>
-		<table  align="center">
-			<tr>
-				<td class="nodetier"><label><input type="checkbox" id="Tier1" checked><span>No Minimum Gathering</span></label></td>
-				<td></td>
-				<td class="nodetier"><label><input type="checkbox" id="Tier2" checked><span>353 Gathering</span></label></td>
-				<td></td>
-				<td class="nodetier"><label><input type="checkbox" id="Tier3" checked><span>408 Gathering</span></label></td>
-				<td></td>
-				<td class="nodetier"><label><input type="checkbox" id="Tier4" checked><span>420 Gathering</span></label></td>
-				<td></td>
-				<td class="nodetier"><label><input type="checkbox" id="Tier5" checked><span>450 Gathering</span></label></td>
-			</tr>
-		</table>
-	</div>
-		<table class="maintable sortable">
-		  <tbody>
-			<tr bgcolor="#D2D2D2">
-			  <th width="97" height="25px" scope="col">Type</th>
-			  <th width="242" scope="col">Item</th>
-			  <th width="84" scope="col" class="sorttable_nosort">Slot</th>
-			  <th width="220" scope="col">Spawn Time</th>
-			  <th width="326" scope="col">Closest Aethersite</th>
-			  <th width="264" scope="col">Min Gathering</th>
-			  <th width="404" scope="col">Min Perception for HQ</th>
-			</tr>
-			 <tr class="M mnodes T1">
-			  <td><strong>Mining</strong></td>
-			  <td>Darksteel Ore</td>
-			  <td>3</td>
-			  <td>1 AM</td>
-			  <td>Camp DragonBone</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T4">
-			  <td><strong>Mining</strong></td>
-			  <td>Pumice</td>
-			  <td>1</td>
-			  <td>1 AM</td>
-			  <td>Eastern La Noscea </td>
-			  <td>420</td>
-			  <td>420</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Crawler Cocoon</td>
-			  <td>4</td>
-			  <td>1 AM</td>
-			  <td>East Shroud</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Antumbral Rock</td>
-			  <td>7</td>
-			  <td>2 AM</td>
-			  <td>Eastern Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Fragrant Log</td>
-			  <td>6</td>
-			  <td>2 AM</td>
-			  <td>South Shroud</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Shroud Tea Leaves</td>
-			  <td>6</td>
-			  <td>2 AM</td>
-			  <td>Central Shroud</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Ferberite</td>
-			  <td>6</td>
-			  <td>3 AM</td>
-			  <td>Northern Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Raw Topaz</td>
-			  <td>7</td>
-			  <td>3 AM</td>
-			  <td>Northern Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			  </tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Raw Iolite</td>
-			  <td>8</td>
-			  <td>3 AM</td>
-			  <td>Northern Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Scarlet Sap</td>
-			  <td>4</td>
-			  <td>3 AM</td>
-			  <td>North Shroud</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Native Gold</td>
-			  <td>6</td>
-			  <td>4 AM</td>
-			  <td>Central Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Raw Diamond</td>
-			  <td>8</td>
-			  <td>4 AM</td>
-			  <td>Central Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Raw Emerald</td>
-			  <td>7</td>
-			  <td>4 AM</td>
-			  <td>Central Thanalan</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T4">
-			  <td><strong>Mining</strong></td>
-			  <td>Platinum Ore</td>
-			  <td>6</td>
-			  <td>4 AM</td>
-			  <td>Southern Thanalan</td>
-			  <td>420</td>
-			  <td>420</td>
-			</tr>
-			<tr class="B bnodes T4">
-			  <td><strong>Botany</strong></td>
-			  <td>Ebony Log</td>
-			  <td>6</td>
-			  <td>4 AM</td>
-			  <td>Middle La Noscea</td>
-			  <td>420</td>
-			  <td>420</td>
-			</tr>
-			<tr class="M mnodes T1">
-			  <td><strong>Mining</strong></td>
-			  <td>Gold Sand</td>
-			  <td>2</td>
-			  <td>5 AM</td>
-			  <td>Eastern Thanalan</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T2">
-			  <td><strong>Mining</strong></td>
-			  <td>Grade 3 Thanalan Topsoil</td>
-			  <td>8</td>
-			  <td>5 AM</td>
-			  <td>Western Thanalan</td>
-			  <td>353</td>
-			  <td>332</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Honey Lemon</td>
-			  <td>2</td>
-			  <td>5 AM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Honey Lemon Seeds</td>
-			  <td>1</td>
-			  <td>5 AM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Trillium</td>
-			  <td>1</td>
-			  <td>5 AM</td>
-			  <td>East Shroud</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T2">
-			  <td><strong>Mining</strong></td>
-			  <td>Umbral Rock</td>
-			  <td>7</td>
-			  <td>6 AM</td>
-			  <td>South Shroud</td>
-			  <td>353</td>
-			  <td>332</td>
-			</tr>
-			<tr class="M mnodes T2">
-			  <td><strong>Mining</strong></td>
-			  <td>Grade 3 Shroud Topsoil</td>
-			  <td>8</td>
-			  <td>6 AM</td>
-			  <td>South Shroud</td>
-			  <td>353</td>
-			  <td>332</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Young Cieldalaes Spinach</td>
-			  <td>6</td>
-			  <td>6 AM</td>
-			  <td>Lower La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Redolent Log</td>
-			  <td>6</td>
-			  <td>6 AM</td>
-			  <td>Central Shroud</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Blood Orange</td>
-			  <td>2</td>
-			  <td>7 AM</td>
-			  <td>Upper La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Bamboo Stick</td>
-			  <td>6</td>
-			  <td>7 AM</td>
-			  <td>Upper La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T5">
-			  <td><strong>Mining</strong></td>
-			  <td>Black Limestone</td>
-			  <td>*</td>
-			  <td>8 AM</td>
-			  <td>Western La Noscea</td>
-			  <td>450</td>
-			  <td>450</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>La Noscean Leek</td>
-			  <td>6</td>
-			  <td>8 AM</td>
-			  <td>Western La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Waterfowl Feather</td>
-			  <td>*</td>
-			  <td>8 AM</td>
-			  <td>Western La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T1">
-			  <td><strong>Mining</strong></td>
-			  <td>Coblyn Larva</td>
-			  <td>7</td>
-			  <td>9 AM</td>
-			  <td>Eastern Thanalan</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T1">
-			  <td><strong>Mining</strong></td>
-			  <td>Gold Ore</td>
-			  <td>6</td>
-			  <td>9 AM</td>
-			  <td>Eastern Thanalan</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Prickly Pineapple</td>
-			  <td>4</td>
-			  <td>9 AM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Prickly Pineapple Seeds</td>
-			  <td>1</td>
-			  <td>9 AM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Spruce Log</td>
-			  <td>6</td>
-			  <td>9 AM</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T3">
-			  <td><strong>Botany</strong></td>
-			  <td>Apricot</td>
-			  <td>2</td>
-			  <td>9 AM</td>
-			  <td>Middle La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			  <tr class="B bnodes T4">
-			  <td><strong>Botany</strong></td>
-			  <td>Cypress Log</td>
-			  <td>6</td>
-			  <td>10 AM</td>
-			  <td>Central Shroud</td>
-			  <td>420</td>
-			  <td>420</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Black Truffle</td>
-			  <td>7</td>
-			  <td>1 PM</td>
-			  <td>Eastern Thanalan</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Dzemael Tomato</td>
-			  <td>3</td>
-			  <td>1 PM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Dzemael Tomato Seeds</td>
-			  <td>1</td>
-			  <td>1 PM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Vampire Plant</td>
-			  <td>8</td>
-			  <td>1 PM</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T1">
-			  <td><strong>Mining</strong></td>
-			  <td>Volcanic Rock Salt</td>
-			  <td>1</td>
-			  <td>5 PM</td>
-			  <td>Eastern La Noscea</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="M mnodes T5">
-			  <td><strong>Mining</strong></td>
-			  <td>Virgin Basilisk Egg </td>
-			  <td>6</td>
-			  <td>5 PM</td>
-			  <td>Northern Thanalan</td>
-			  <td>450</td>
-			  <td>450</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Thavnairian Mistletoe</td>
-			  <td>2</td>
-			  <td>5 PM</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T5">
-			  <td><strong>Botany</strong></td>
-			  <td>Rosemary</td>
-			  <td>1</td>
-			  <td>5 PM</td>
-			  <td>East Shroud</td>
-			  <td>450</td>
-			  <td>450</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Raw Ruby</td>
-			  <td>7</td>
-			  <td>6 PM</td>
-			  <td>Lower La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T3">
-			  <td><strong>Mining</strong></td>
-			  <td>Raw Sapphire</td>
-			  <td>8</td>
-			  <td>6 PM</td>
-			  <td>Lower La Noscea</td>
-			  <td>408</td>
-			  <td>389</td>
-			</tr>
-			<tr class="M mnodes T2">
-			  <td><strong>Mining</strong></td>
-			  <td>Grade 3 La Noscean Topsoil</td>
-			  <td>8</td>
-			  <td>7 PM</td>
-			  <td>Middle La Noscea</td>
-			  <td>353</td>
-			  <td>332</td>
-			</tr>
-			<tr class="M mnodes T1">
-			  <td><strong>Mining</strong></td>
-			  <td>Astral Rock</td>
-			  <td>7</td>
-			  <td>9 PM</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Kidragora</td>
-			  <td>7</td>
-			  <td>9 PM</td>
-			  <td>East Shroud</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-			<tr class="B bnodes T1">
-			  <td><strong>Botany</strong></td>
-			  <td>Trillium Bulb</td>
-			  <td>8</td>
-			  <td>9 PM</td>
-			  <td>East Shroud</td>
-			  <td>&nbsp;</td>
-			  <td>&nbsp;</td>
-			</tr>
-		  </tbody>
-		</table>
-
-	<div class="version">Version 1.5 - April 2, 2015</div>
-	<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
-</body>
-<footer>
-<script type="text/javascript" src="functions.js"></script>
+	<footer>
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+	<script src="tablesort/jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script id="nodesTable" type="text/x-handlebars-template">
+	<table id="unspoilednodeslist" class="maintable tablesorter minbotsort">
+		<thead bgcolor="#D2D2D2">
+			<!-- <th width="97" height="25px" scope="col">Type</th> -->
+			<th width="242" scope="col">Item</th>
+			<th width="84" scope="col">Slot</th>
+			<th width="220" scope="col">Spawn Time</th>
+			<th width="326" scope="col">Zone</th>
+			<th width="300" scope="col">Region</th>
+			<th width="300" scope="col">Closest Aetheryte</th>
+			<th width="264" scope="col">Min Gathering</th>
+			<th width="404" scope="col">Min Perception for HQ</th>
+		</thead>
+		<tbody id="highlight">
+			{{#each nodes}}
+				<tr class="{{#if Flag}}M{{else}}B{{/if}}"<>
+				 	<!-- <td>{{Type}}</td> -->
+					<td class="theitem">{{Item}}</td>
+					<td>{{Slot}}</td>
+					<td>{{SpawnTime}}</td>
+					<td>{{Zone}}</td>
+					<td>{{Region}}</td>
+					<td>{{ClosestAetheryte}}</td>
+					<td>{{MinGathering}}</td>
+					<td>{{MinPerceptionforHQ}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -524,7 +104,5 @@
   ga('send', 'pageview');
 
 </script>
-
-</script>
-</footer>
+</body>
 </html>

@@ -1,21 +1,23 @@
+ <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" description="FFXIV Resource for Unspoiled Nodes and Big Fishing spawns and locations Places.">
+	<title>Big Fishing</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<meta charset="utf-8">
-	<title>UnspoiledNodes</title>
 </head>
-
 <body>
-	<div class="navigation" align="center">
-		<span><a href="http://duolc.info/index.html" target="_parent">Unspoiled Nodes</a></span>
-		<span><a href="http://duolc.info/fishing.html" target="_parent">Fishing</a></span>
-		<span><a href="http://duolc.info/Planned.html" target="_parent">Planned Features</a></span>
-		<span><a href="http://duolc.info/changelog.html" target="_parent">Change Log</a></span>
+<div class="navigation" align="center">
+		<span><a href="index.html" target="_parent">Unspoiled Nodes</a></span>
+		<span><a href="fishing.html" target="_parent">Fishing</a></span>
+		<span><a href="changelog.html" target="_parent">Change Log</a></span>
 		<span><a href="https://docs.google.com/forms/d/1dopCqOp1ZOt6rDg7OjQPxulr9LrELCFVKeP83_5Ne30/viewform?embedded=true" target="_blank">Feedback</a></span>
 	</div>
-
-	<div>		
+	<a href="https://github.com/duolc/UnspoiledNodes">
+		<img style="position: absolute; top: 0; right: 0; border: 0;" 
+			src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" 
+			alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
+	</a>
+	<div>
 		<table class="clock" align="center" >
 			<tr>
 				<td> Current Eorzea Time: </td>
@@ -23,1268 +25,129 @@
 			</tr>
 		</table>
 	</div>
-	
-	<div class="h1">
-	
-		<label for=fshlvl>Fishing Level:</label>
-		<output for=fshlvl id=gather>290</output>
 
-		<p>
-		<input type=range min=250 max=400 value=290 id=fshlvl step=1 oninput="outputUpdate(value)">
-		</p>
-	</div>	
-	<div>
-			<table align="center">
-				<tr>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Any" checked><span>Any Weather</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Blizzard" checked><span>Blizzard</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Clear" checked><span>Clear</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Cloudy" checked><span>Cloudy</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Duststorm" checked><span>Duststorm</span></label></td>
-				</tr>
-				<tr></tr>
-				<tr>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fair" checked><span>Fair</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fog" checked><span>Fog</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gale" checked><span>Gale</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gloom" checked><span>Gloom</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Heatwave" checked><span>Heatwave</span></label></td>
-				</tr>
-				<tr></tr>
-				<tr>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Lightning" checked><span>Lightning</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Overcast" checked><span>Overcast</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Rain" checked><span>Rain</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Thunderstorm" checked><span>Thunderstorm</span></label></td>
-					<td></td>
-					<td class="nodetier weatherbutton"><label><input type="checkbox" id="Windy" checked><span>Windy</span></label></td><td></td>
 
-				</tr>
-			</table>
-			<table align="center">
-					<td class="nodetier weatherbutton" align="center"><label><input type="checkbox" id="Mooch" checked><span>Show/Hide Mooch</span></label></td>
-				</tr>
-				<td></td>
-			</table>
-	</div>
-	<div>
-	<table id="fishinglist" class="maintable sortable">
-			<thead>
-				<tr bgcolor="#D2D2D2">
-					<th width="400" height="25px" scope="col">Fish Name</th>
-					<th width="400" scope="col">Spawn Time</th>
-					<th width="600" scope="col">Zone</th>
-					<th width="400" scope="col" class="sorttable_nosort">Coordinates</th>
-					<th width="400" scope="col">Weather</th>
-					<th width="400" scope="col">Bait</th>
-					<th width="404" scope="col">Mooch</th>
-					<th width="404" scope="col">Min Gathering</th>
-				</tr>
-			</thead>
-		  <tbody>
-			<!-- Add Data to tr for JS Sorting -->
-			<!--Fish that Spawn under more then 1 Weather Condition are Treated as Seperate Fish -->
-			 <tr  class="fnodes Any">
-			  <td>Navigator's Brand</td>
-			  <td>8am to 3pm</td>
-			  <td>Western La Noscea</td>
-			  <td>(30,30)</td>
-			  <td>Any</td>
-			  <td>Yumizuno</td>
-			  <td></td>
-			  <td>290</td>
-			 </tr>
-			 <tr class="fnodes Any MCH">
-			  <td>Octomammoth</td>
-			  <td>7am to 5pm</td>
-			  <td>Limsa Lominsa Lower Decks</td>
-			  <td>Any</td>
-			  <td>Any</td>
-			  <td>Pill Bug</td>
-			  <td>Merlthor Goby/Harbor Herring</td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Great Gudgeon</td>
-			  <td>All day</td>
-			  <td>Middle La Noscea</td>
-			  <td>(21,16)</td>
-			  <td>Any</td>
-			  <td>Crayfish Ball</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>High Perch</td>
-			  <td>2am to 8am</td>
-			  <td>Middle La Noscea</td>
-			  <td>(17,14)</td>
-			  <td>Any</td>
-			  <td>Sinking Minnow</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Oschon's Print</td>
-			  <td>All Day</td>
-			  <td>Lower La Noscea</td>
-			  <td>(26,26)</td>
-			  <td>Any</td>
-			  <td>Goby Ball</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Silver Sovereign</td>
-			  <td>All day</td>
-			  <td>Lower La Noscea</td>
-			  <td>(20,20)</td>
-			  <td>Any</td>
-			  <td>Yumizuno</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Sabertooth Cod</td>
-			  <td>12pm to 10pm</td>
-			  <td>Lower La Noscea</td>
-			  <td>(20,39)</td>
-			  <td>Any</td>
-			  <td>Rat Tail</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Jaques the Snipper</td>
-			  <td>9pm to 3am</td>
-			  <td>Lower La Noscea</td>
-			  <td>(25,33)</td>
-			  <td>Any</td>
-			  <td>Goby Ball</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Old Softie</td>
-			  <td>4pm to 10pm</td>
-			  <td>Central Thanalan</td>
-			  <td>(29,21)</td>
-			  <td>Any</td>
-			  <td>Bloodworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Bloody Brewer</td>
-			  <td>All Day</td>
-			  <td>New Gridania</td>
-			  <td>(10,11)</td>
-			  <td>Clear</td>
-			  <td>Crayfish Ball</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Matron Carp</td>
-			  <td>3pm to 9pm</td>
-			  <td>Old Gridania</td>
-			  <td>(15,6)</td>
-			  <td>Clear</td>
-			  <td>Bloodworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Chirurgeon</td>
-			  <td>All Day</td>
-			  <td>Central Shroud</td>
-			  <td>(22,22)</td>
-			  <td>Clear</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Gigantshark</td>
-			  <td>All day</td>
-			  <td>Middle La Noscea</td>
-			  <td>(15,17)</td>
-			  <td>Clear</td>
-			  <td>Lugworm</td>
-			  <td>Merlthor Goby > Ogre Barracuda</td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Caterwauler</td>
-			  <td>All Day</td>
-			  <td>Lower La Noscea</td>
-			  <td>(24,23)</td>
-			  <td>Clear</td>
-			  <td>Moth Pupa</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Glimmerscale</td>
-			  <td>All Day</td>
-			  <td>Western Thanalan</td>
-			  <td>(24,21)</td>
-			  <td>Clear</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Dream Goby</td>
-			  <td>5pm to 3am</td>
-			  <td>Central Thanalan</td>
-			  <td>(23,18)</td>
-			  <td>Clear</td>
-			  <td>Crayfish Ball</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Matron Carp</td>
-			  <td>3pm to 9pm</td>
-			  <td>Old Gridania</td>
-			  <td>(15,6)</td>
-			  <td>Cloudy</td>
-			  <td>Bloodworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Carp Diem</td>
-			  <td>9am to 2pm</td>
-			  <td>Old Gridania</td>
-			  <td>(8,8)</td>
-			  <td>Cloudy</td>
-			  <td>Crow Fly</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Cloudy MCH">
-			  <td>Chirurgeon</td>
-			  <td>All Day</td>
-			  <td>Central Shroud</td>
-			  <td>(22,22)</td>
-			  <td>Cloudy</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Dark Knight</td>
-			  <td>All Day</td>
-			  <td>Central Thanalan</td>
-			  <td>(27,19)</td>
-			  <td>Cloudy</td>
-			  <td>Crow Fly</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Crystal Perch</td>
-			  <td>All Day</td>
-			  <td>Middle La Noscea</td>
-			  <td>(21,12)</td>
-			  <td>Cloudy</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Duststorm">
-			  <td>Dream Goby</td>
-			  <td>5pm to 3am</td>
-			  <td>Central Thanalan</td>
-			  <td>(23,18)</td>
-			  <td>Duststorm</td>
-			  <td>Crayfish Ball</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Duststorm">
-			  <td>Dark Knight</td>
-			  <td>All Day</td>
-			  <td>Central Thanalan</td>
-			  <td>(27,19)</td>
-			  <td>Duststorm</td>
-			  <td>Crow Fly</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair MCH">
-			  <td>Gigantshark</td>
-			  <td>All day</td>
-			  <td>Middle La Noscea</td>
-			  <td>(15,17)</td>
-			  <td>Fair</td>
-			  <td>Lugworm</td>
-			  <td>Merlthor Goby > Ogre Barracuda</td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair">
-			  <td>Matron Carp</td>
-			  <td>3pm to 9pm</td>
-			  <td>Old Gridania</td>
-			  <td>(15,6)</td>
-			  <td>Fair</td>
-			  <td>Bloodworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair MCH">
-			  <td>Chirurgeon</td>
-			  <td>All Day</td>
-			  <td>Central Shroud</td>
-			  <td>(22,22)</td>
-			  <td>Fair</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair">
-			  <td>Glimmerscale</td>
-			  <td>All Day</td>
-			  <td>Western Thanalan</td>
-			  <td>(24,21)</td>
-			  <td>Fair</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair">
-			  <td>Caterwauler</td>
-			  <td>All Day</td>
-			  <td>Lower La Noscea</td>
-			  <td>(24,23)</td>
-			  <td>Fair</td>
-			  <td>Moth Pupa</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair">
-			  <td>Bloody Brewer</td>
-			  <td>All Day</td>
-			  <td>New Gridania</td>
-			  <td>(10,11)</td>
-			  <td>Fair</td>
-			  <td>Crayfish Ball</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fair">
-			  <td>Dream Goby</td>
-			  <td>5pm to 3am</td>
-			  <td>Central Thanalan</td>
-			  <td>(23,18)</td>
-			  <td>Fair</td>
-			  <td>Crayfish Ball</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Crystal Perch</td>
-			  <td>All Day</td>
-			  <td>Middle La Noscea</td>
-			  <td>(21,12)</td>
-			  <td>Fog</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Ghost Carp</td>
-			  <td>9pm to 3am</td>
-			  <td>Central Shroud</td>
-			  <td>(25,27)</td>
-			  <td>Fog</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Carp Diem</td>
-			  <td>9am to 2pm</td>
-			  <td>Old Gridania</td>
-			  <td>(8,8)</td>
-			  <td>Fog</td>
-			  <td>Crow Fly</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Dark Knight</td>
-			  <td>All Day</td>
-			  <td>Central Thanalan</td>
-			  <td>(27,19)</td>
-			  <td>Fog</td>
-			  <td>Crow Fly</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Caterwauler</td>
-			  <td>All Day</td>
-			  <td>Lower La Noscea</td>
-			  <td>(24,23)</td>
-			  <td>Rain</td>
-			  <td>Moth Pupa</td>
-			  <td></td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Storm Dancer</td>
-			  <td>5pm to 2am</td>
-			  <td>New Gridania</td>
-			  <td>(12,13)</td>
-			  <td>Rain</td>
-			  <td>Stem Borer</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Rain MCH">
-			  <td>Chirurgeon</td>
-			  <td>All Day</td>
-			  <td>Central Shroud</td>
-			  <td>(22,22)</td>
-			  <td>Rain</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-			  <td>301</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Marrow Sucker</td>
-			  <td>8pm to 3am</td>
-			  <td>Eastern Thanalan</td>
-			  <td>(13,20)</td>
-			  <td>Rain</td>
-			  <td>Syrphid Basket</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Mud Pilgrim</td>
-			  <td>5pm to 7am</td>
-			  <td>Eastern Thanalan</td>
-			  <td>(17,24)</td>
-			  <td>Rain</td>
-			  <td>Midge Basket</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Ghost Carp</td>
-			  <td>9pm to 3am</td>
-			  <td>Central Shroud</td>
-			  <td>(25,27)</td>
-			  <td>Rain</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>301</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Beguiler Chub</td>
-			  <td>6am to 2pm</td>
-			  <td>Middle La Noscea</td>
-			  <td>(22,22)</td>
-			  <td>Any</td>
-			  <td>Moth Pupa</td>
-			  <td></td>
-			  <td>308</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Armorer</td>
-			  <td>7pm to 4am</td>
-			  <td>Western La Noscea</td>
-			  <td>(33,30)</td>
-			  <td>Any</td>
-			  <td>Northern Krill</td>
-				<td></td>
-				<td>308</td>
-			 </tr>
-			 <tr data-id="310" class="fnodes Any">
-			  <td>Mud Golem</td>
-			  <td>9pm to 3am</td>
-			  <td>Western Thanalan</td>
-			  <td>(17,15)</td>
-			  <td>Any</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>310</td>
-			 </tr>
-			 <tr class="fnodes Any MCH">
-			  <td>Junkmonger</td>
-			  <td>4pm to 3am</td>
-			  <td>Western La Noscea</td>
-			  <td>(27,29)</td>
-			  <td>Any</td>
-			  <td>Pill Bug</td>
-			  <td>Merlthor Goby > Wahoo</td>
-				<td>331</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Blue Widow</td>
-			  <td>9am to 2pm</td>
-			  <td>North Shroud</td>
-			  <td>(26,25)</td>
-			  <td>Any</td>
-			  <td>Floating Minnow</td>
-				<td></td>
-				<td>325</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Moldva</td>
-			  <td>6pm to 1am</td>
-			  <td>East Shroud</td>
-			  <td>(24,25)</td>
-			  <td>Clear</td>
-			  <td>Midge Basket</td>
-			  <td>Ala Mhigan Fighting Fish</td>
-			  <td>331</td>
-			 </tr>
-			 <tr class="fnodes Cloudy MCH">
-			  <td>Moldva</td>
-			  <td>6pm to 1am</td>
-			  <td>East Shroud</td>
-			  <td>(24,25)</td>
-			  <td>Cloudy</td>
-			  <td>Midge Basket</td>
-			  <td>Ala Mhigan Fighting Fish</td>
-			  <td>331</td>
-			 </tr>
-			 <tr class="fnodes Fair MCH">
-			  <td>Moldva</td>
-			  <td>6pm to 1am</td>
-			  <td>East Shroud</td>
-			  <td>(24,25)</td>
-			  <td>Fair</td>
-			  <td>Midge Basket</td>
-			  <td>Ala Mhigan Fighting Fish</td>
-				<td>331</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Faerie Queen</td>
-			  <td>All Day</td>
-			  <td>Lower La Noscea</td>
-			  <td>??</td>
-			  <td>Any</td>
-			  <td>Spinnerbait</td>
-				<td></td>
-				<td>334</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Zalera</td>
-			  <td>7am to 2pm</td>
-			  <td>Middle La Noscea</td>
-			  <td>(11,9)</td>
-			  <td>Any</td>
-			  <td>Rat Tail</td>
-			  <td></td>
-			  <td>335</td>
-			 </tr>
-			 <tr class="fnodes Overcast MCH">
-			  <td>Toramafish</td>
-			  <td>5pm to 6pm</td>
-			  <td>Upper La Noscea</td>
-			  <td>(15,23)</td>
-			  <td>Overcast</td>
-			  <td>Spinnerbait</td>
-			  <td>Common Sculpin</td>
-			  <td>336</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Captain's Chalice</td>
-			  <td>12am to 1am</td>
-			  <td>Western La Noscea</td>
-			  <td>(17,15)</td>
-			  <td>Clear</td>
-			  <td>Steel Jig</td>
-			  <td>Merlthor Goby > Wahoo > Giant Squid</td>
-			  <td>338</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>The Warden's Wand</td>
-			  <td>5pm to 7pm</td>
-			  <td>Eastern Thanalan</td>
-			  <td>(25,22)</td>
-			  <td>Clear</td>
-			  <td>Honey Worm</td>
-				<td></td>
-				<td>338</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Joan of Trout</td>
-			  <td>4am to 5am</td>
-			  <td>Upper La Noscea</td>
-			  <td>(9,20)</td>
-			  <td>Any</td>
-			  <td>Crow Fly</td>
-			  <td></td>
-			  <td>339</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>The Grinner</td>
-			  <td>All Day</td>
-			  <td>South Shroud</td>
-			  <td>(24,22)</td>
-			  <td>Any</td>
-			  <td>Syrphid Basket</td>
-				<td></td>
-				<td>339</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Shark Tuna</td>
-			  <td>8pm</td>
-			  <td>Eastern La Noscea</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Spoon Worm</td>
-			  <td>Fullmoon Sardine</td>
-			  <td>339</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Syldra</td>
-			  <td>Any</td>
-			  <td>Lower La Noscea</td>
-			  <td>(35,15)</td>
-			  <td>Rain</td>
-			  <td>Spoon Worm</td>
-				<td></td>
-				<td>339</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>The Greatest
-			  Bream in the World</td>
-			  <td>8pm to 10pm</td>
-			  <td>Eastern La Noscea</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Shrimp Cage Feeder</td>
-				<td></td>
-				<td>343</td>
-			 </tr>
-			 <tr class="fnodes Overcast">
-			  <td>Dirty Herry</td>
-			  <td>8pm to 9pm</td>
-			  <td>Western Thanalan</td>
-			  <td>(15,29)</td>
-			  <td>Overcast</td>
-			  <td>Northern Krill</td>
-			  <td></td>
-			  <td>343</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Dirty Herry</td>
-			  <td>8pm to 9pm</td>
-			  <td>Western Thanalan</td>
-			  <td>(15,29)</td>
-			  <td>Clear</td>
-			  <td>Northern Krill</td>
-			  <td></td>
-			  <td>343</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Judgeray</td>
-			  <td>2pm to 9pm</td>
-			  <td>North Shroud</td>
-			  <td>(21,24)</td>
-			  <td>Any</td>
-			  <td>Wildfowl Fly</td>
-				<td></td>
-				<td>344</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Dark Ambusher</td>
-			  <td>9pm to 3am</td>
-			  <td>East Shroud</td>
-			  <td>(10,22)</td>
-			  <td>Clear</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-			  <td>344</td>
-			 </tr>
-			 <tr class="fnodes Cloudy MCH">
-			  <td>Dark Ambusher</td>
-			  <td>9pm to 3am</td>
-			  <td>East Shroud</td>
-			  <td>(10,22)</td>
-			  <td>Cloudy</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-			  <td>344</td>
-			 </tr>
-			 <tr class="fnodes Fair MCH">
-			  <td>Dark Ambusher</td>
-			  <td>9pm to 3am</td>
-			  <td>East Shroud</td>
-			  <td>(10,22)</td>
-			  <td>Fair</td>
-			  <td>Moth Pupa</td>
-			  <td>Striped Goby</td>
-			  <td>344</td>
-			 </tr>
-			 <tr class="fnodes Fog MCH">
-			  <td>Old Hollow
-			    Eyes</td>
-			  <td>Any</td>
-			  <td>Southern Thanalan</td>
-			  <td>(21,15)</td>
-			  <td>Fog</td>
-			  <td>Midge Basket</td>
-			  <td>Copperfish</td>
-			  <td>344</td>
-			 </tr>
-			 <tr data-id="345" class="fnodes Any">
-			  <td>Goldenfin</td>
-			  <td>8am to 4pm</td>
-			  <td>Limsa Lominsa Upper Decks</td>
-			  <td>Any</td>
-			  <td>Any</td>
-			  <td>Pill Bug</td>
-			  <td></td>
-			  <td>345</td>
-			 </tr>
-			 <tr class="fnodes Blizzard">
-			  <td>Daniffen's Mark</td>
-			  <td>3am to 9pm</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>??</td>
-			  <td>Blizzard</td>
-			  <td>Wildfowl Fly</td>
-				<td></td>
-				<td>347</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Bombardfish</td>
-			  <td>9am to 2pm</td>
-			  <td>Eastern La Noscea</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Herring Ball</td>
-				<td></td>
-				<td>347</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Meteor Survivor</td>
-			  <td>3am to 5am</td>
-			  <td>Lower La Noscea</td>
-			  <td>(16,35)</td>
-			  <td>Fog</td>
-			  <td>Rat Tail</td>
-			  <td></td>
-			  <td>348</td>
-			 </tr>
-			 <tr class="fnodes Heatwave MCH">
-			  <td>Olgoi-Khorkhoi</td>
-			  <td>All day</td>
-			  <td>Southern Thanalan</td>
-			  <td>(27,37)</td>
-			  <td>Heatwave</td>
-			  <td>Sand Leech</td>
-			  <td>Storm Rider</td>
-			  <td>348</td>
-			 </tr>
-			 <tr class="fnodes Overcast">
-			  <td>Meteor Survivor</td>
-			  <td>3am to 5am</td>
-			  <td>Lower La Noscea</td>
-			  <td>(16,35)</td>
-			  <td>Overcast</td>
-			  <td>Rat Tail</td>
-			  <td></td>
-			  <td>348</td>
-			 </tr>
-			 <tr class="fnodes Rain MCH">
-			  <td>Sylphsbane</td>
-			  <td>All Day</td>
-			  <td>East Shroud</td>
-			  <td>(20,21)</td>
-			  <td>Rain</td>
-			  <td>Butterworm</td>
-			  <td>Copperfish</td>
-			  <td>348</td>
-			 </tr>
-			 <tr class="fnodes Windy">
-			  <td>Meteor Survivor</td>
-			  <td>3am to 5am</td>
-			  <td>Lower La Noscea</td>
-			  <td>(16,35)</td>
-			  <td>Wind</td>
-			  <td>Rat Tail</td>
-			  <td></td>
-			  <td>348</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>The Drowned Sniper</td>
-			  <td>All Day</td>
-			  <td>Eastern La Noscea</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Snurble Fly</td>
-				<td></td>
-				<td>349</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>The Matriarch</td>
-			  <td>11am</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>(6,22)</td>
-			  <td>Clear</td>
-			  <td>Honey Worm</td>
-			  <td>Abalathian Smelt</td>
-			  <td>349</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Levinlight</td>
-			  <td>6pm to 10pm</td>
-			  <td>Central Shroud</td>
-			  <td>(15,24)</td>
-			  <td>Cloudy</td>
-			  <td>Syrphid Basket</td>
-				<td></td>
-				<td>349</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>The Thousand-Year Itch</td>
-			  <td>All Day</td>
-			  <td>Eastern Thanalan</td>
-			  <td>??</td>
-			  <td>Fog</td>
-			  <td>Stem Borer</td>
-				<td></td>
-				<td>349</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Thundergut</td>
-			  <td>7pm to 11pm</td>
-			  <td>Outer La Noscea</td>
-			  <td>??</td>
-			  <td>Rain</td>
-			  <td>Stem Borer</td>
-				<td></td>
-				<td>349</td>
-			 </tr>
-			 <tr class="fnodes Rain">
-			  <td>Levinlight</td>
-			  <td>6pm to 10pm</td>
-			  <td>Central Shroud</td>
-			  <td>(15,24)</td>
-			  <td>Rain</td>
-			  <td>Syrphid Basket</td>
-				<td></td>
-				<td>349</td>
-			 </tr>
-			 <tr class="fnodes Blizzard">
-			  <td>Charon's Lantern</td>
-			  <td>12am to 3am</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>??</td>
-			  <td>Blizzard</td>
-			  <td>Glowworm</td>
-			  <td></td>
-			  <td>349</td>
-			 </tr>
-			 <tr class="fnodes Thunderstorm">
-			  <td>Son of Levin</td>
-			  <td>Any</td>
-			  <td>South Shroud</td>
-			  <td>(18,29)</td>
-			  <td>Thunderstorm</td>
-			  <td>Caddisfly Larva</td>
-				<td></td>
-				<td>349</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Starbright</td>
-			  <td>9pm to 2am</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Syrphid Basket</td>
-			  <td>Abalathian Smelt</td>
-			  <td>350</td>
-			 </tr>
-			 <tr class="fnodes Lightning">
-			  <td>Bloodbath</td>
-			  <td>All Day</td>
-			  <td>Central Shroud</td>
-			  <td>??</td>
-			  <td>Thunder</td>
-			  <td>Honey Worm</td>
-				<td></td>
-				<td>350</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Fairy Queen</td>
-			  <td>1am to 4pm</td>
-			  <td>Lower La Noscea</td>
-			  <td>(21,34)</td>
-			  <td>Cloudy</td>
-			  <td>Spinnerbait</td>
-				<td></td>
-				<td>351</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Fairy Queen</td>
-			  <td>1am to 4pm</td>
-			  <td>Lower La Noscea</td>
-			  <td>(21,34)</td>
-			  <td>Fog</td>
-			  <td>Spinnerbait</td>
-				<td></td>
-				<td>351</td>
-			 </tr>
-			 <tr class="fnodes Windy">
-			  <td>Fairy Queen</td>
-			  <td>1am to 4pm</td>
-			  <td>Lower La Noscea</td>
-			  <td>(21,34)</td>
-			  <td>Windy</td>
-			  <td>Spinnerbait</td>
-				<td></td>
-				<td>351</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>The Sinker</td>
-			  <td>10pm to 3am</td>
-			  <td>South Shroud</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Sinking Minnow</td>
-				<td></td>
-				<td>352</td>
-			 </tr>
-			 <tr class="fnodes Gale">
-			  <td>The Lone Ripper</td>
-			  <td>All day</td>
-			  <td>Western La Noscea</td>
-			  <td>(16,22)</td>
-			  <td>Gale</td>
-			  <td>Heavy Steel Jig</td>
-				<td></td>
-				<td>353</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>Rivet Oyster</td>
-			  <td>All Day</td>
-			  <td>Western Thanalan</td>
-			  <td>(11,14)</td>
-			  <td>Any</td>
-			  <td>Heavy Steel Jig</td>
-				<td></td>
-				<td>356</td>
-			 </tr>
-			 <tr class="fnodes Any">
-			  <td>The Green Jester</td>
-			  <td>6pm to 9pm</td>
-			  <td>Central Shroud</td>
-			  <td>??</td>
-			  <td>Any</td>
-			  <td>Honey Worm</td>
-				<td></td>
-				<td>357</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>The Salter</td>
-			  <td>9am to 3pm</td>
-			  <td>Eastern La Noscea</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Midge Basket</td>
-			  <td>Copperfish</td>
-			  <td>357</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>The Assassin</td>
-			  <td>9pm to 10pm</td>
-			  <td>East Shroud</td>
-			  <td>(17,16)</td>
-			  <td>Clear</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>357</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Slime King</td>
-			  <td>5pm to 12am</td>
-			  <td>Central Thanalan</td>
-			  <td>(16,23)</td>
-			  <td>Cloudy</td>
-			  <td>Crayfish ball</td>
-				<td></td>
-				<td>357</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>The Assassin</td>
-			  <td>9pm to 10pm</td>
-			  <td>East Shroud</td>
-			  <td>(17,16)</td>
-			  <td>Cloudy</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>357</td>
-			 </tr>
-			 <tr class="fnodes Duststorm">
-			  <td>Slime King</td>
-			  <td>5pm to 12am</td>
-			  <td>Central Thanalan</td>
-			  <td>(16,23)</td>
-			  <td>Duststorm</td>
-			  <td>Crayfish ball</td>
-				<td></td>
-				<td>357</td>
-			 </tr>
-			 <tr class="fnodes Fair Clear">
-			  <td>Mirrorscale</td>
-			  <td>??</td>
-			  <td>Eastern La Noscea</td>
-			  <td>??</td>
-			  <td>Fair</td>
-			  <td>Midge Basket</td>
-				<td></td>
-				<td>357</td>
-			 </tr>
-			 <tr class="fnodes Any MCH">
-			  <td>The Captain's Chalice</td>
-			  <td>11pm to 1am</td>
-			  <td>Western La Noscea</td>
-			  <td>??</td>
-			  <td>Any</td>
-			  <td>Iron Jig</td>
-			  <td>Fullmoon Sardine</td>
-			  <td>358</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Anomalocaris</td>
-			  <td>10am to 2pm</td>
-			  <td>Coerthas Central Highlands</td>
-			  <td>(13,14)</td>
-			  <td>Clear</td>
-			  <td>Hoverworm</td>
-				<td></td>
-				<td>358</td>
-			 </tr>
-			 <tr class="fnodes Fog">
-			  <td>Floating Boulder</td>
-			  <td>1am to 5am</td>
-			  <td>South Shroud</td>
-			  <td>??</td>
-			  <td>Fog</td>
-			  <td>Bass Ball</td>
-			  <td></td>
-			  <td>358</td>
-			 </tr>
-			 <tr class="fnodes Overcast">
-			  <td>Floating Boulder</td>
-			  <td>1am to 5am</td>
-			  <td>South Shroud</td>
-			  <td>??</td>
-			  <td>Overcast</td>
-			  <td>Bass Ball</td>
-			  <td></td>
-			  <td>358</td>
-			 </tr>
-			 <tr class="fnodes Heatwave MCH">
-			  <td>Magic Carpet</td>
-			  <td>9am to 4pm</td>
-			  <td>Southern Thanalan</td>
-			  <td>(12,35)</td>
-			  <td>Heatwave</td>
-			  <td>Sand Leech</td>
-			  <td>Storm Rider</td>
-			  <td>359</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>King of the Spring</td>
-			  <td>4pm to 6pm</td>
-			  <td>Upper La Noscea</td>
-			  <td>(27,22)</td>
-			  <td>Clear</td>
-			  <td>Spinnerbait</td>
-				<td></td>
-				<td>359</td>
-			 </tr>
-			 <tr class="fnodes Cloudy">
-			  <td>Worm of Nym</td>
-			  <td>8pm to 9pm</td>
-			  <td>Upper La Noscea</td>
-			  <td>(33,24)</td>
-			  <td>Cloudy</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>359</td>
-			 </tr>
-			 <tr class="fnodes Fog MCH">
-			  <td>Sweetnewt</td>
-			  <td>11pm to 3am</td>
-			  <td>Lavender Beds</td>
-			  <td>??</td>
-			  <td>Fog</td>
-			  <td>Midge Basket</td>
-			  <td>Ala Mhigan Fighting Fish</td>
-			  <td>359</td>
-			 </tr>
-			 <tr class="fnodes Lightning">
-			  <td>King of the Spring</td>
-			  <td>4pm to 6pm</td>
-			  <td>Upper La Noscea</td>
-			  <td>(27,22)</td>
-			  <td>Lightning</td>
-			  <td>Spinnerbait</td>
-				<td></td>
-				<td>359</td>
-			 </tr>
-			 <tr class="fnodes Overcast MCH">
-			  <td>Helmsman's Hand</td>
-			  <td>11am</td>
-			  <td>Western La Noscea</td>
-			  <td>(15,29)</td>
-			  <td>Overcast</td>
-			  <td>Pill Bug</td>
-			  <td>Ocean Cloud</td>
-				<td>360</td>
-			 </tr>
-			 <tr class="fnodes Overcast">
-			  <td>Fingers</td>
-			  <td>5pm to 6pm</td>
-			  <td>Western Thanalan</td>
-			  <td>(14,18)</td>
-			  <td>Overcast</td>
-			  <td>Northern Krill</td>
-				<td></td>
-			  <td>361</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Fingers</td>
-			  <td>5pm to 6pm</td>
-			  <td>Western Thanalan</td>
-			  <td>(14,18)</td>
-			  <td>Clear</td>
-			  <td>Northern Krill</td>
-				<td></td>
-			  <td>361</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Vip Viper</td>
-			  <td>6pm</td>
-			  <td>South Shroud</td>
-			  <td>(18,19)</td>
-			  <td>Clear</td>
-			  <td>Butterworm</td>
-				<td></td>
-				<td>367</td>
-			 </tr>
-			 <tr class="fnodes Fog MCH">
-			  <td>Hannibal</td>
-			  <td>1am to 4am</td>
-			  <td>Northern Thanalan</td>
-			  <td>(24,25)</td>
-			  <td>Fog</td>
-			  <td>Spinner</td>
-			  <td>Common Sculpin</td>
-				<td>367</td>
-			 </tr>
-			 <tr class="fnodes Fog MCH">
-			  <td>Shadowstreak</td>
-			  <td>4am to 9am</td>
-			  <td>North Shroud</td>
-			  <td>??</td>
-			  <td>Fog</td>
-			  <td>Topwater Frog</td>
-				<td></td>
-				<td>368</td>
-			 </tr>
-			 <tr class="fnodes Heatwave">
-			  <td>Discobolus</td>
-			  <td>12pm - 4pm</td>
-			  <td>Southern Thanalan</td>
-			  <td>??</td>
-			  <td>Heatwave</td>
-			  <td>Glowworm</td>
-			  <td></td>
-			  <td>368</td>
-			 </tr>
-			 <tr class="fnodes Gale MCH">
-			  <td>Frilled Shark</td>
-			  <td>8pm to 1am</td>
-			  <td>Western La Noscea</td>
-			  <td>(15,35)</td>
-			  <td>Gale</td>
-			  <td>Floating Minnow</td>
-			  <td>Fullmoon Sardine</td>
-			  <td>373</td>
-			 </tr>
-			 <tr class="fnodes Windy MCH">
-			  <td>Frilled Shark</td>
-			  <td>8pm to 1am</td>
-			  <td>Western La Noscea</td>
-			  <td>(15,35)</td>
-			  <td>Wind</td>
-			  <td>Floating Minnow</td>
-			  <td>Fullmoon Sardine</td>
-			  <td>373</td>
-			 </tr>
-			 <tr class="fnodes Thunderstorm MCH">
-			  <td>The Gobfather</td>
-			  <td>12am to 6am</td>
-			  <td>South Shroud</td>
-			  <td>(27,21)</td>
-			  <td>Thunderstorm</td>
-			  <td>Honey Worm</td>
-			  <td>Silverfish</td>
-			  <td>378</td>
-			 </tr>
-			 <tr class="fnodes Gloom">
-			  <td>Aetherlouse</td>
-			  <td>3am to 12pm</td>
-			  <td>Mor Dhona</td>
-			  <td>??</td>
-			  <td>Gloom</td>
-			  <td>Glowworm</td>
-			  <td></td>
-			  <td>381</td>
-			 </tr>
-			 <tr class="fnodes Clear">
-			  <td>Cupfish</td>
-			  <td>7pm to 8pm</td>
-			  <td>Lower La Noscea</td>
-			  <td>(27,16)</td>
-			  <td>Clear</td>
-			  <td>Syrphid Basket</td>
-				<td></td>
-				<td>381</td>
-			 </tr>
-			 <tr class="fnodes Clear MCH">
-			  <td>Twitchbeard</td>
-			  <td>4am</td>
-			  <td>The Mist</td>
-			  <td>??</td>
-			  <td>Clear</td>
-			  <td>Spoon Worm</td>
-			  <td>Fullmoon Sardine</td>
-			  <td>384</td>
-			 </tr>
+	<table align="center">
+		<tr>
+			<td class="nodetier weatherbutton" style="width:225px;" ><label><input type="checkbox" id="Mooch" checked><span>Show/Hide Mooch</span></label></td>
+			<td>
+					<div class="h1" style="width:225px;">
+						<label for=fshlvl>Fishing Level:&nbsp</label>
+						<output for=fshlvl id=fshgatherlvl>290</output>
+					</div>
+			</td>
+			<td class="nodetier weatherbutton" style="width:225px;"><label><input type="checkbox" id="WeatherTable" unchecked><span>Show/Hide Weather Selectors</span></label></td>
+		</tr>
+			<td colspan="3" align="center"><input class="fshbar" type=range min=250 max=400 value=290 id=fshlvl step=1 oninput="outputUpdate(value)"></td>
+		</tr>
 	</table>
-</div>
-	<div class="version">Version 1.5 - April 2, 2015</div>
-	<div style="padding-top: 5%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
 
-</body>
+	<table class="weatherselector" align="center" style="display:none;">
+		<tr>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Any" checked><span>Any Weather</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Blizzard" checked><span>Blizzard</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Clear" checked><span>Clear</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Cloudy" checked><span>Cloudy</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Duststorm" checked><span>Duststorm</span></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fair" checked><span>Fair</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Fog" checked><span>Fog</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gale" checked><span>Gale</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Gloom" checked><span>Gloom</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Heatwave" checked><span>Heatwave</span></label></td>
+		</tr>
+		<tr></tr>
+		<tr>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Lightning" checked><span>Lightning</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Overcast" checked><span>Overcast</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Rain" checked><span>Rain</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Thunderstorm" checked><span>Thunderstorm</span></label></td>
+			<td></td>
+			<td class="nodetier weatherbutton"><label><input type="checkbox" id="Windy" checked><span>Windy</span></label></td><td></td>
+
+		</tr>
+	</table>
+  <div class="helper">Table headers are sortable. Hover over Bait for where to buy.</div>
+	<div id="fishinglist" align:"center">LOADING</div>
+  <div class="version">Version 2.0 - April 20, 2015</div>
+	<div style="padding-top: 1%;"><img class="roundedimg cntrimg" src="Images/happysheep.png" height="250" width="400"></div>
+	<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
 <footer>
-	<script type="text/javascript" src="functions.js"></script>
+</footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+<script src="tablesort/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+<script id="fishingTable" type="text/x-handlebars-template">
+	<table id="fishinglist" class="maintable tablesorter fishingsort">
+		<thead>
+			<tr bgcolor="#D2D2D2">
+				<th width="400" height="25px" scope="col">Fish Name</th>
+				<th width="400" scope="col">Spawn Time</th>
+				<th width="900" scope="col">Zone</th>
+        <th width="900" scope="col">Fishing Hole</th>
+				<th width="100" scope="col">(X,Y)</th>
+				<th width="400" scope="col">Weather</th>
+				<th width="400" scope="col">Bait</th>
+				<th width="404" scope="col">Mooch</th>
+				<th width="404" scope="col">Min Gathering</th>
+			</tr>
+		</thead>
+		<tbody id="highlight">
+			{{#each fishes}}
+				<tr class="F fnodes {{weather}} {{#if mooch}}MCH{{/if}}">
+					<td>{{fishName}}<span class="tooltip"><ul><li>{{text}}</li><ul></td></span></td>
+					<td>{{spawnTime}}</td>
+					<td>{{zone}}</td>
+					<td>{{FishingHole}}</td>
+					<td>{{coordinates}}</td>
+					<td>{{weather}}</td>
+					<td class="nolink {{#if ObtainedBy}}fishlink tooltipinfo{{/if}}">{{bait}}
+            <span class="tooltip">
+              {{#if NPC}}
+                <ul>
+                  <h3>{{ObtainedBy}}</h3>
+                  {{#if NPC}}<li>{{NPC}}</li>{{/if}}
+                  {{#if NPC1}}<li>{{NPC1}}</li>{{/if}}
+                  {{#if NPC2}}<li>{{NPC2}}</li>{{/if}}
+                  {{#if NPC3}}<li>{{NPC3}}</li>{{/if}}
+                <ul>
+              {{else}}
+                <ul>
+                  <h3>Crafted By:</h3>
+                  <li>{{ObtainedBy}}</li>
+                    <ul>
+                      {{#if Material}}<li>{{Material}}</li>{{/if}}
+                      {{#if Material1}}<li>{{Material1}}</li>{{/if}}
+                      {{#if Material2}}<li>{{Material2}}</li>{{/if}}
+                      {{#if Material3}}<li>{{Material3}}</li>{{/if}}
+                      {{#if Material4}}<li>{{Material4}}</li>{{/if}}
+                      {{#if Material5}}<li>{{Material5}}</li>{{/if}}
+                    </ul>
+                </ul>
+              {{/if}}
+            </span>
+          </td>
+					<td>{{mooch}}</td>
+					<td>{{minGathering}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1295,5 +158,5 @@
   ga('send', 'pageview');
 
 </script>
-</footer>
+</body>
 </html>
