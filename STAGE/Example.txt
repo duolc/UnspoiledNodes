@@ -1,9 +1,0 @@
-$('#this')
-$('.this')
-$('[class="this'])
-$('[data-something="this"]')
-$('[data-something~="this"]')
-"this that theother"
-$('[data-something*="this"]')
-"this that theother"
-"thistle"
