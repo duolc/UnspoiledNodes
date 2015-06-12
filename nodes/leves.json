@@ -1,0 +1,1082 @@
+[
+  {
+    "Type":"Botany",
+    "Name":"Wonders Don't Cease, They're Discontinued",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+    "Type":"Botany",
+    "Name":"West Bank Story",
+    "NPC":"Tierney",
+    "Zone":"Central Shroud",
+    "Area":"Bentbranch Meadows",
+    "coordinates":"(22,22)",
+    "Level":"10"
+	},
+  {
+		"Type":"Botany",
+    "Name":"We Couldn't Start the Fire",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"1"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Waking Wood",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"1"
+	},
+  {
+	  "Type":"Botany",
+    "Name":"Topsy-turvy Time",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Botany",
+    "Name":"This Old Fort",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Botany",
+    "Name":"The Quick and the Dead",
+    "NPC":"Qina Lyehga",
+    "Zone":"East Shroud",
+    "Area":"The Hawthorne Hut",
+    "coordinates":"(17,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Botany",
+    "Name":"The Palm in Your Hand",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Botany",
+    "Name":"The Heart of the Hedge",
+    "NPC":"Tierney",
+    "Zone":"Central Shroud",
+    "Area":"Bentbranch Meadows",
+    "coordinates":"(22,22)",
+    "Level":"10"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Straight and Arrow",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Spear of Heaven",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Sign of the Crimes",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Shaken, Not Stirred",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Botany",
+    "Name":"See How They Shine",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Salad Days",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Plague on Both Our Forests",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Over the Underbrush",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Nowhere to Slide",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Botany",
+    "Name":"No Bark, All Bite",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"5"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Never Strikes Twice",
+    "NPC":"Qina Lyehga",
+    "Zone":"East Shroud",
+    "Area":"The Hawthorne Hut",
+    "coordinates":"(17,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Nature Calls",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Mushroom Gobblin'",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Moon in Rouge",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Maple Stories",
+    "NPC":"Qina Lyehga",
+    "Zone":"East Shroud",
+    "Area":"The Hawthorne Hut",
+    "coordinates":"(17,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Lovely Latex",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"1"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Let the Sun Shine In",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"5"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Just the Artifacts, Madam",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Botany",
+    "Name":"If a Tree Falls",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"5"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Fueling the Flames",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Evil Seeds",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"5"
+	},
+  {
+		"Type":"Botany",
+    "Name":"East Bank Story",
+    "NPC":"Muriaule",
+    "Zone":"Central Shroud",
+    "Area":"The Bannock",
+    "coordinates":"(23,19)",
+    "Level":"1"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Digging Deep",
+    "NPC":"Tierney",
+    "Zone":"Central Shroud",
+    "Area":"Bentbranch Meadows",
+    "coordinates":"(22,22)",
+    "Level":"10"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Caught in the Long Grass",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Catch My Drift",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Briar in the Hole",
+    "NPC":"Qina Lyehga",
+    "Zone":"East Shroud",
+    "Area":"The Hawthorne Hut",
+    "coordinates":"(17,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Bleeding Them Dry",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Appleanche",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Botany",
+    "Name":"Always Right",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Botany",
+    "Name":"A Stash of Herbs",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Botany",
+    "Name":"A Chest of Nuts",
+    "NPC":"Tierney",
+    "Zone":"Central Shroud",
+    "Area":"Bentbranch Meadows",
+    "coordinates":"(22,22)",
+    "Level":"10"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Rubble Bubble",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"1"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Miners' Holiday",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"1"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Who Needs the Paperwork",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"1"
+	},
+  {
+		"Type":"Mining",
+    "Name":"The Primrose Path",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"1"
+	},
+  {
+		"Type":"Mining",
+    "Name":"I Don't Zinc It's a Coincidence",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"5"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Pipikkuli's Ship Comes In",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"5"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Do They Ore Don't They",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"5"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Vanishing Point",
+    "NPC":"Graceful Song",
+    "Zone":"Western Thanalan",
+    "Area":"Scorpion Crossing",
+    "coordinates":"(26,24)",
+    "Level":"5"
+	},
+  {
+		"Type":"Mining",
+    "Name":"We Do This the Hard Way",
+    "NPC":"Totonowa",
+    "Zone":"Western Thanalan",
+    "Area":"Horizon",
+    "coordinates":"(23,16)",
+    "Level":"10"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Break It Up",
+    "NPC":"Totonowa",
+    "Zone":"Western Thanalan",
+    "Area":"Horizon",
+    "coordinates":"(23,16)",
+    "Level":"10"
+	},
+  {
+		"Type":"Mining",
+    "Name":"It Peiste to Listen",
+    "NPC":"Totonowa",
+    "Zone":"Western Thanalan",
+    "Area":"Horizon",
+    "coordinates":"(23,16)",
+    "Level":"10"
+	},
+  {
+		"Type":"Mining",
+    "Name":"That's Why They Call It Fool's Gold",
+    "NPC":"Totonowa",
+    "Zone":"Western Thanalan",
+    "Area":"Horizon",
+    "coordinates":"(23,16)",
+    "Level":"10"
+	},
+  {
+		"Type":"Mining",
+    "Name":"A Man's Gotta Dream",
+    "NPC":"Poponagu",
+    "Zone":"Eastern Thanalan",
+    "Area":"Camp Drybone",
+    "coordinates":"(13,24)",
+    "Level":"15"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Earth Sprites Are Easy",
+    "NPC":"Poponagu",
+    "Zone":"Eastern Thanalan",
+    "Area":"Camp Drybone",
+    "coordinates":"(13,24)",
+    "Level":"15"
+	},
+  {
+		"Type":"Mining",
+    "Name":"The Doom That Came to Belah'dia",
+    "NPC":"Poponagu",
+    "Zone":"Eastern Thanalan",
+    "Area":"Camp Drybone",
+    "coordinates":"(13,24)",
+    "Level":"15"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Eiderdown for Eidolons",
+    "NPC":"Poponagu",
+    "Zone":"Eastern Thanalan",
+    "Area":"Camp Drybone",
+    "coordinates":"(13,24)",
+    "Level":"15"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Rock My Wall",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Look How They Shine for You",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Location, Location, Location",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Elemental Housekeeping",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Can't Start a Fire",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Tag, You're It",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Baby, Light My Way",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Fool Me Twice",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Mining",
+    "Name":"I Kidd You Not",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Mining",
+    "Name":"That's What the Money Is For",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Mining",
+    "Name":"The Midden Fair",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Shell Game (Miner)",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Mining",
+    "Name":"There Are No Good Answers",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Rocks for Brains",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Mythril Madness",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Eye for an Eye (Name)",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Nature Is a Monster",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Brother in Arms",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Not Losing Our Heads This Time",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Breach and Build",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Metal Has No Master",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Crystal Mess",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Hybrid Hypotheses",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Mining",
+    "Name":"Sucker Seer",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Adventurers' Relish",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"1"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Soup to Guts",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"1"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"A Kelping Hand",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"1"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Poor Boys Eat Well",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"1"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Splendor in the Glass",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"5"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Cloud Cutlet",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"5"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"They Taste Just as Pretty",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"5"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Yummy in the Tummy",
+    "NPC":"Wyrkholsk",
+    "Zone":"Lower La Noscea",
+    "Area":"Limsa Lominsa",
+    "coordinates":"(31,20)",
+    "Level":"5"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Fish by Many Other Names",
+    "NPC":"Swygskyf",
+    "Zone":"Western La Noscea",
+    "Area":"Swiftperch",
+    "coordinates":"(34,31)",
+    "Level":"10"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Just Add Water",
+    "NPC":"Swygskyf",
+    "Zone":"Western La Noscea",
+    "Area":"Swiftperch",
+    "coordinates":"(34,31)",
+    "Level":"10"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Fertile Incandescent",
+    "NPC":"Swygskyf",
+    "Zone":"Western La Noscea",
+    "Area":"Swiftperch",
+    "coordinates":"(34,31)",
+    "Level":"10"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Brain Candy",
+    "NPC":"Swygskyf",
+    "Zone":"Western La Noscea",
+    "Area":"Swiftperch",
+    "coordinates":"(34,31)",
+    "Level":"10"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Deepest Cut",
+    "NPC":"Orwen",
+    "Zone":"Western La Noscea",
+    "Area":"Aleport",
+    "coordinates":"(27,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Moral of the Coral",
+    "NPC":"Orwen",
+    "Zone":"Western La Noscea",
+    "Area":"Aleport",
+    "coordinates":"(27,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Crab Life by the Horns",
+    "NPC":"Orwen",
+    "Zone":"Western La Noscea",
+    "Area":"Aleport",
+    "coordinates":"(27,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Shell Game (Fisher)",
+    "NPC":"Orwen",
+    "Zone":"Western La Noscea",
+    "Area":"Aleport",
+    "coordinates":"(27,27)",
+    "Level":"15"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Sounds Fishy to Me",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Blind Ambition",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Long and the Shortcrust",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Food Chain Reaction",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"20"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Fishing 101",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"A Shocking Soiree",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"A Watery Web of Lies",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Truth Will Set You Free",
+    "NPC":"Nyell",
+    "Zone":"South Shroud",
+    "Area":"Quarrymill",
+    "coordinates":"(25,20)",
+    "Level":"25"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Blue Period",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Kitchen Nightmares No More",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"A Recipe for Disaster",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Just Call Me Late for Dinner",
+    "NPC":"Nahctahr",
+    "Zone":"Eastern La Noscea",
+    "Area":"Costa del Sol",
+    "coordinates":"(30,30)",
+    "Level":"30"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Fry Me a River",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"The Perks of Politics",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Gathering Light",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Hands Off Our Fish",
+    "NPC":"Cimeaurant",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+    "coordinates":"(26,28)",
+    "Level":"35"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Empire Builder",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Laird of the Lakes",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Make a Fish",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Rationally Speaking",
+    "NPC":"Voilinaut",
+    "Zone":"Coerthas Central Highlands",
+    "Area":"Whitebrim Front",
+    "coordinates":"(12,16)",
+    "Level":"40"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Snail Fail",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Awash in Evidence",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Sleeper Creeper",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona",
+    "Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+	},
+  {
+		"Type":"Fishing",
+    "Name":"Putting the Zap on Nature",
+    "NPC":"K'leytai",
+    "Zone":"Mor Dhona","Area":"Saint Coinach's Find",
+    "coordinates":"(29,12)",
+    "Level":"45"
+  }
+
+]
