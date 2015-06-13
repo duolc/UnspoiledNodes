@@ -29,8 +29,10 @@
 				<td class="nodetier mnodes mb"><label><input type="checkbox" id="Mining" checked><span>Mining Nodes</span></label></td>
 				<td></td>
 				<td class="nodetier bnodes bb"><label><input type="checkbox" id="Botany" checked><span>Botany Nodes</span></label></td>
+				<td></td>
+				<td class="nodetier fnodes fb"><label><input type="checkbox" id="Fishing" checked><span>Fishing Nodes</span></label></td>
 			</thead>
-				<tr style="visibility: hidden; height:0px">
+				<tr >
 					<td width="300px">
 						<div class="h1 mslide">
 							<label for=minelvl>Mining Level:&nbsp</label>
@@ -40,7 +42,7 @@
 							</p>
 						</div>
 					</td>
-					<td ></td>
+					<td></td>
 					<td width="300px">
 						<div class="h1 bslide">
 							<label for=botlvl>Botany Level:&nbsp</label>
@@ -50,6 +52,17 @@
 							</p>
 						</div>
 					</td>
+					<td></td>
+						<td width="300px">
+								<div class="h1 fslide">
+									<label for=fshlvl>Fishing Level:&nbsp</label>
+									<output for=fshlvl id=fshgatherlvl>45</output>
+									<p>
+										<input class="fshbar" type=range min=1 max=60 value=45 id=fshlvl step=1 oninput="outputUpdate(value)">
+									</p>
+								</div>
+						</td>
+					</tr>
 				</tr>
 		</table>
 		<div class="helper">Table headers are sortable.</div>
@@ -69,10 +82,10 @@
 		<thead bgcolor="#D2D2D2">
 			<!-- <th width="97" height="25px" scope="col">Type</th> -->
 			<th width="50" scope="col">Type</th>
-			<th width="500" scope="col">Name</th>
+			<th width="300" scope="col">Name</th>
 			<th width="326" scope="col">Zone</th>
 			<th width="500" scope="col">Region</th>
-			<th width="500" scope="col">NPC</th>
+			<th width="150" scope="col">NPC</th>
 			<th width="100" scope="col">coordinates</th>
 			<th width="264" scope="col">Level</th>
 		</thead>

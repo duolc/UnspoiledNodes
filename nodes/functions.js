@@ -167,6 +167,17 @@ $('#Botany').change(function () {
   }
 });
 
+/*Show or Hide Fishing*/
+$('#Fishing').change(function () {
+    if (!this.checked) $('.F, .fslide').fadeOut('slow');
+    else {
+        $('.F').filter(function() {
+		    return $('td:nth-child(7)', this).last().html() <= $('#fshlvl').val();
+     }).fadeIn('slow');
+        $('.fslide').fadeIn('slow');
+  }
+});
+
 /*Show or Hide Mooching*/
 $('#Mooch').change(function () {
     if (!this.checked) $('.MCH').fadeOut('slow');

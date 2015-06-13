@@ -96,11 +96,11 @@ body {
 		color: #D7CCC8;
 }
 
-.B		{
+.B	{
 		background-color:#597A41;
 }
 
-.fnodes {
+.F {
 		background-color:#003366;
 		color: #D7CCC8;
 }
@@ -179,6 +179,15 @@ th, td {
 .mb {
 		margin:4px;
     background-color:#4E342E;
+    border-radius:5px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+}
+/* Select Fishing Button */
+.fb {
+		margin:4px;
+    background-color:#003366;
     border-radius:5px;
     border:1px solid #D0D0D0;
     overflow:auto;
@@ -268,7 +277,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 .fshbar {
   	-webkit-appearance: none;
   	margin: 18px 0;
-  	width: 50%;
+  	width: 100%;
 }
 
 .fshbar:focus {

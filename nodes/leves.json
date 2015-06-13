@@ -801,7 +801,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Adventurers' Relish",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -811,7 +811,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Soup to Guts",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -821,7 +821,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"A Kelping Hand",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -831,7 +831,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Poor Boys Eat Well",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -841,7 +841,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Splendor in the Glass",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -851,7 +851,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Cloud Cutlet",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -861,7 +861,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"They Taste Just as Pretty",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -871,7 +871,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Yummy in the Tummy",
     "NPC":"Wyrkholsk",
     "Zone":"Lower La Noscea",
@@ -881,7 +881,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Fish by Many Other Names",
     "NPC":"Swygskyf",
     "Zone":"Western La Noscea",
@@ -891,7 +891,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Just Add Water",
     "NPC":"Swygskyf",
     "Zone":"Western La Noscea",
@@ -901,7 +901,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Fertile Incandescent",
     "NPC":"Swygskyf",
     "Zone":"Western La Noscea",
@@ -911,7 +911,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Brain Candy",
     "NPC":"Swygskyf",
     "Zone":"Western La Noscea",
@@ -921,7 +921,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Deepest Cut",
     "NPC":"Orwen",
     "Zone":"Western La Noscea",
@@ -931,7 +931,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Moral of the Coral",
     "NPC":"Orwen",
     "Zone":"Western La Noscea",
@@ -941,7 +941,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Crab Life by the Horns",
     "NPC":"Orwen",
     "Zone":"Western La Noscea",
@@ -951,7 +951,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Shell Game (Fisher)",
     "NPC":"Orwen",
     "Zone":"Western La Noscea",
@@ -961,7 +961,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Sounds Fishy to Me",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -971,7 +971,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Blind Ambition",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -981,7 +981,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Long and the Shortcrust",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -991,7 +991,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Food Chain Reaction",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -1001,7 +1001,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Fishing 101",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -1011,7 +1011,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"A Shocking Soiree",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -1021,7 +1021,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"A Watery Web of Lies",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -1031,7 +1031,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Truth Will Set You Free",
     "NPC":"Nyell",
     "Zone":"South Shroud",
@@ -1041,7 +1041,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Blue Period",
     "NPC":"Nahctahr",
     "Zone":"Eastern La Noscea",
@@ -1051,7 +1051,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Kitchen Nightmares No More",
     "NPC":"Nahctahr",
     "Zone":"Eastern La Noscea",
@@ -1061,7 +1061,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"A Recipe for Disaster",
     "NPC":"Nahctahr",
     "Zone":"Eastern La Noscea",
@@ -1071,7 +1071,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Just Call Me Late for Dinner",
     "NPC":"Nahctahr",
     "Zone":"Eastern La Noscea",
@@ -1081,7 +1081,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Fry Me a River",
     "NPC":"Cimeaurant",
     "Zone":"Coerthas Central Highlands",
@@ -1091,7 +1091,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"The Perks of Politics",
     "NPC":"Cimeaurant",
     "Zone":"Coerthas Central Highlands",
@@ -1101,7 +1101,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Gathering Light",
     "NPC":"Cimeaurant",
     "Zone":"Coerthas Central Highlands",
@@ -1111,7 +1111,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Hands Off Our Fish",
     "NPC":"Cimeaurant",
     "Zone":"Coerthas Central Highlands",
@@ -1121,7 +1121,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Empire Builder",
     "NPC":"Voilinaut",
     "Zone":"Coerthas Central Highlands",
@@ -1131,7 +1131,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Laird of the Lakes",
     "NPC":"Voilinaut",
     "Zone":"Coerthas Central Highlands",
@@ -1141,7 +1141,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Make a Fish",
     "NPC":"Voilinaut",
     "Zone":"Coerthas Central Highlands",
@@ -1151,7 +1151,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Rationally Speaking",
     "NPC":"Voilinaut",
     "Zone":"Coerthas Central Highlands",
@@ -1161,7 +1161,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Snail Fail",
     "NPC":"K'leytai",
     "Zone":"Mor Dhona",
@@ -1171,7 +1171,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Awash in Evidence",
     "NPC":"K'leytai",
     "Zone":"Mor Dhona",
@@ -1181,7 +1181,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Sleeper Creeper",
     "NPC":"K'leytai",
     "Zone":"Mor Dhona",
@@ -1191,7 +1191,7 @@
 	},
   {
 		"Type":"Fishing",
-		"Class":"fnodes",
+		"Class":"F",
     "Name":"Putting the Zap on Nature",
     "NPC":"K'leytai",
     "Zone":"Mor Dhona","Region":"Saint Coinach's Find",
