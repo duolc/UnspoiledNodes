@@ -59,25 +59,45 @@ updateClock();
 
  });
 
-/*Build out UnspoiledNodes Table from botmin.json*/
-$.getJSON('botmin.json', function(data) {
-	var templateData = {nodes: data};
-	var templateHtml = $('#nodesTable').html();
-	var template = Handlebars.compile(templateHtml);
-	var compiledTemplate = template(templateData);
-	$('#unspoilednodeslist').replaceWith(compiledTemplate);
-	//$('#fishing-container').html(compiledTemplate);
+ /*Build out UnspoiledNodes Table from botmin.json*/
+ $.getJSON('botmin.json', function(data) {
+ 	var templateData = {nodes: data};
+ 	var templateHtml = $('#nodesTable').html();
+ 	var template = Handlebars.compile(templateHtml);
+ 	var compiledTemplate = template(templateData);
+ 	$('#unspoilednodeslist').replaceWith(compiledTemplate);
+ 	//$('#fishing-container').html(compiledTemplate);
 
-	/*Now add sortable table headers*/
-	/*Needs to run in this script or will not read table to make sortable*/
-	$("#unspoilednodeslist")
-	.tablesorter({
-		headers: {
-			1: {sorter:false}
-		}
-	});
+ 	/*Now add sortable table headers*/
+ 	/*Needs to run in this script or will not read table to make sortable*/
+ 	$("#unspoilednodeslist")
+ 	.tablesorter({
+ 		headers: {
+ 			1: {sorter:false}
+ 		}
+ 	});
 
-});
+ });
+
+ /*Build out leve Table from botmin.json*/
+ $.getJSON('leves.json', function(data) {
+ 	var templateData = {leves: data};
+ 	var templateHtml = $('#levesTable').html();
+ 	var template = Handlebars.compile(templateHtml);
+ 	var compiledTemplate = template(templateData);
+ 	$('#leveslist').replaceWith(compiledTemplate);
+ 	//$('#fishing-container').html(compiledTemplate);
+
+ 	/*Now add sortable table headers*/
+ 	/*Needs to run in this script or will not read table to make sortable*/
+ 	$("#leveslist")
+ 	.tablesorter({
+ 		headers: {
+ 			4: {sorter:false}
+ 		}
+ 	});
+
+ });
 
 /* Slide Bar and Filtering for Tables */
 /*Mining*/
