@@ -8,6 +8,7 @@
 		<div class="navigation" align="center">
 			<span><a href="index.html" target="_parent">Unspoiled Nodes</a></span>
 			<span><a href="fishing.html" target="_parent">Fishing</a></span>
+			<span><a href="leves.html" target="_parent">Fieldcraft Leve's</a></span>
 			<span><a href="changelog.html" target="_parent">Change Log</a></span>
 			<span><a href="https://docs.google.com/forms/d/1dopCqOp1ZOt6rDg7OjQPxulr9LrELCFVKeP83_5Ne30/viewform?embedded=true" target="_blank">Feedback</a></span>
 		</div>
@@ -58,7 +59,7 @@
 									<label for=fshlvl>Fishing Level:&nbsp</label>
 									<output for=fshlvl id=fshgatherlvl>45</output>
 									<p>
-										<input class="fshbar" type=range min=1 max=60 value=45 id=fshlvl step=1 oninput="outputUpdate(value)">
+										<input class="fshbar" type=range min=1 max=60 value=45 id=fshlvl step=1 oninput="outputFishUpdate(value)">
 									</p>
 								</div>
 						</td>
@@ -67,7 +68,7 @@
 		</table>
 		<div class="helper">Table headers are sortable.</div>
 		<div id="leveslist" style="align:center">LOADING</div>
-		<div class="version">Version 2.0 - April 20, 2015</div>
+		<div class="version">Version 2.5 - June 14, 2015</div>
 		<div style="padding-top: 1%"><img class="roundedimg cntrimg" src="Images/choco.png" height="250" width="400"></div>
 		<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
 
@@ -86,8 +87,8 @@
 			<th width="326" scope="col">Zone</th>
 			<th width="500" scope="col">Region</th>
 			<th width="150" scope="col">NPC</th>
-			<th width="100" scope="col">coordinates</th>
-			<th width="264" scope="col">Level</th>
+			<th width="100" scope="col">Coordinates</th>
+			<th width="100" scope="col">Level</th>
 		</thead>
 		<tbody id="highlight">
 			{{#each leves}}
@@ -97,8 +98,8 @@
 					<td>{{Zone}}</td>
 					<td>{{Region}}</td>
 					<td>{{NPC}}</td>
-					<td>{{coordinates}}</td>
-					<td>{{Level}}</td>
+					<td style="text-align:center;">{{coordinates}}</td>
+					<td style="text-align:center;">{{Level}}</td>
 				</tr>
 			{{/each}}
 		</tbody>

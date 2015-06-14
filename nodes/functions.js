@@ -79,7 +79,7 @@ updateClock();
 
  });
 
- /*Build out leve Table from botmin.json*/
+ /*Build out Leve Table from leves.json*/
  $.getJSON('leves.json', function(data) {
  	var templateData = {leves: data};
  	var templateHtml = $('#levesTable').html();
@@ -108,7 +108,7 @@ function outputMineUpdate(minelvl) {
 
 var $MiningRows = $('#minebottable tbody tr');
 $('#minelvl').on('change', function(event) {
-	var curVal = this.value;
+	var curVal = parseInt(this.value);
 	$('.M').hide("slow");
 	$('.M').filter(function() {
 		return $('td:nth-child(7)', this).last().html() <= curVal;
@@ -123,7 +123,7 @@ function outputBotUpdate(botlvl) {
 
 var $BotanyRows = $('#minebottable tbody tr');
 $('#botlvl').on('change', function(event) {
-	var curVal = this.value;
+	var curVal = parseInt(this.value);
 	$('.B').fadeOut("slow");
 	$('.B').filter(function() {
 		return $('td:nth-child(7)', this).last().html() <= curVal;
@@ -132,13 +132,13 @@ $('#botlvl').on('change', function(event) {
 
 /*Fishing*/
 
-function outputUpdate(fshlvl) {
+function outputFishUpdate(fshlvl) {
   document.querySelector('#fshgatherlvl').value = fshlvl;
 }
 
 var $fishingRows = $('#fishinglist tbody tr');
 $('#fshlvl').on('change', function(event) {
-	var curVal = this.value;
+	var curVal = parseInt(this.value);
 	$('.F').fadeOut("slow");
 	$('.F').filter(function() {
 		return $('td', this).last().html() <= curVal;
