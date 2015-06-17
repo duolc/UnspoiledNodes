@@ -121,22 +121,14 @@
               {{#if NPC}}
                 <ul>
                   <h3>{{ObtainedBy}}</h3>
-                  {{#if NPC}}<li>{{NPC}}</li>{{/if}}
-                  {{#if NPC1}}<li>{{NPC1}}</li>{{/if}}
-                  {{#if NPC2}}<li>{{NPC2}}</li>{{/if}}
-                  {{#if NPC3}}<li>{{NPC3}}</li>{{/if}}
+                  {{#each NPC}}<li>{{this}}</li>{{/each}}
                 <ul>
               {{else}}
                 <ul>
                   <h3>Crafted By:</h3>
                   <li>{{ObtainedBy}}</li>
                     <ul>
-                      {{#if Material}}<li>{{Material}}</li>{{/if}}
-                      {{#if Material1}}<li>{{Material1}}</li>{{/if}}
-                      {{#if Material2}}<li>{{Material2}}</li>{{/if}}
-                      {{#if Material3}}<li>{{Material3}}</li>{{/if}}
-                      {{#if Material4}}<li>{{Material4}}</li>{{/if}}
-                      {{#if Material5}}<li>{{Material5}}</li>{{/if}}
+                      {{#each Material}}<li>{{this}}</li>{{/each}}
                     </ul>
                 </ul>
               {{/if}}
