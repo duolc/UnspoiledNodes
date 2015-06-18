@@ -89,7 +89,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (32-20)",
         "NPC1":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -111,7 +111,7 @@
                       "1x: Blacklip Oyster"
                     ],
         "BaitLink": "http://ffxiv.consolegameswiki.com/wiki/Yumizuno",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -127,7 +127,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -143,7 +143,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (32-20)",
         "NPC1":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -159,7 +159,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -176,7 +176,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -192,7 +192,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -209,7 +209,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -224,7 +224,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -241,7 +241,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -258,7 +258,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -275,7 +275,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -291,7 +291,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -307,7 +307,7 @@
         "NPC":"Arms Supplier and Mender: South Shroud (18-19)",
         "NPC1":"Junkmonger: Upper La Noscea (14-24)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -324,7 +324,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -340,7 +340,7 @@
         "NPC":"Arms Supplier and Mender: South Shroud (18-19)",
         "NPC1":"Junkmonger: Upper La Noscea (14-24)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -357,7 +357,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -374,7 +374,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -390,7 +390,7 @@
         "NPC":"Arms Supplier and Mender: South Shroud (18-19)",
         "NPC1":"Junkmonger: Upper La Noscea (14-24)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -405,7 +405,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -421,7 +421,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -438,7 +438,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -455,7 +455,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -472,7 +472,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -489,7 +489,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -506,7 +506,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -523,7 +523,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -540,7 +540,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -556,7 +556,7 @@
         "NPC":"Arms Supplier and Mender: South Shroud (18-19)",
         "NPC1":"Junkmonger: Upper La Noscea (14-24)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -572,7 +572,7 @@
         "NPC":"Arms Supplier and Mender: South Shroud (18-19)",
         "NPC1":"Junkmonger: Upper La Noscea (14-24)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -589,7 +589,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -606,7 +606,7 @@
         "NPC1":"Merchant and Mender: Norhern Thanalan (20-30)",
         "NPC2":"Merchant and Mender: Coerthas Central Highlands (26-27)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -623,7 +623,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -640,7 +640,7 @@
         "NPC1":"Merchant and Mender: Eastern La Noscea (30-31)",
         "NPC2":"Merchant and Mender: Southern Thanalan (18-12)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -657,7 +657,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -674,7 +674,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "301",
+        "minGathering": 301,
         "link": "",
         "text": ""
     },
@@ -691,7 +691,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "308",
+        "minGathering": 308,
         "link": "",
         "text": ""
     },
@@ -706,7 +706,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Western La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "308",
+        "minGathering": 308,
         "link": "",
         "text": ""
     },
@@ -723,7 +723,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "310",
+        "minGathering": 310,
         "link": "",
         "text": ""
     },
@@ -736,10 +736,11 @@
         "bait": "Pill Bug",
         "mooch": "Merlthor Goby > Wahoo",
         "ObtainedBy": "Purchased From:",
-        "NPC":"Synehill: Limsa Lominsa Lower Decks (6-11)",
-        "NPC1":"Merchant and Mender: Middle La Noscea (21-21)",
-        "BaitLink": "http://ffxiv.consolegameswiki.com/wiki/Pill_Bug",
-        "minGathering": "331",
+        "NPC":      [
+                      "Synehill: Limsa Lominsa Lower Decks (6-11)",
+                      "Merchant and Mender: Middle La Noscea (21-21)"
+                    ],        "BaitLink": "http://ffxiv.consolegameswiki.com/wiki/Pill_Bug",
+        "minGathering": 331,
         "link": "",
         "text": ""
     },
@@ -754,7 +755,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC": "Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink":"",
-        "minGathering": "325",
+        "minGathering": 325,
         "link": "",
         "text": ""
     },
@@ -771,7 +772,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "331",
+        "minGathering": 331,
         "link": "",
         "text": ""
     },
@@ -788,7 +789,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "331",
+        "minGathering": 331,
         "link": "",
         "text": ""
     },
@@ -805,7 +806,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "331",
+        "minGathering": 331,
         "link": "",
         "text": ""
     },
@@ -825,7 +826,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "334",
+        "minGathering": 334,
         "link": "",
         "text": ""
     },
@@ -841,7 +842,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "335",
+        "minGathering": 335,
         "link": "",
         "text": ""
     },
@@ -861,7 +862,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "336",
+        "minGathering": 336,
         "link": "",
         "text": ""
     },
@@ -876,7 +877,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Eastern La Noscea (30-31)",
         "BaitLink": "",
-        "minGathering": "338",
+        "minGathering": 338,
         "link": "",
         "text": ""
     },
@@ -894,7 +895,7 @@
         "NPC2":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC3":"Merchant and Mender: Coerthas Central Highlands (21-21)",
         "BaitLink": "",
-        "minGathering": "338",
+        "minGathering": 338,
         "link": "",
         "text": ""
     },
@@ -910,7 +911,7 @@
         "NPC":"Arms Supplier and Mender: South Shroud (18-19)",
         "NPC1":"Junkmonger: Upper La Noscea (14-24)",
         "BaitLink": "",
-        "minGathering": "339",
+        "minGathering": 339,
         "link": "",
         "text": ""
     },
@@ -927,7 +928,7 @@
         "NPC1":"Merchant and Mender: Eastern La Noscea (30-31)",
         "NPC2":"Merchant and Mender: Southern Thanalan (18-12)",
         "BaitLink": "",
-        "minGathering": "339",
+        "minGathering": 339,
         "link": "",
         "text": ""
     },
@@ -942,7 +943,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Eastern La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "339",
+        "minGathering": 339,
         "link": "",
         "text": ""
     },
@@ -957,7 +958,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Eastern La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "339",
+        "minGathering": 339,
         "link": "",
         "text": ""
     },
@@ -972,7 +973,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Western La Noscea (22-22)",
         "BaitLink": "",
-        "minGathering": "343",
+        "minGathering": 343,
         "link": "",
         "text": ""
     },
@@ -987,7 +988,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Western La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "343",
+        "minGathering": 343,
         "link": "",
         "text": ""
     },
@@ -1002,7 +1003,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Western La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "343",
+        "minGathering": 343,
         "link": "",
         "text": ""
     },
@@ -1019,7 +1020,7 @@
         "NPC1":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC2":"Merchant and Mender: Coerthas Central Highlands (26-27)",
         "BaitLink": "",
-        "minGathering": "344",
+        "minGathering": 344,
         "link": "",
         "text": ""
     },
@@ -1036,7 +1037,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "344",
+        "minGathering": 344,
         "link": "",
         "text": ""
     },
@@ -1053,7 +1054,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "344",
+        "minGathering": 344,
         "link": "",
         "text": ""
     },
@@ -1070,7 +1071,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "344",
+        "minGathering": 344,
         "link": "",
         "text": ""
     },
@@ -1087,7 +1088,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "344",
+        "minGathering": 344,
         "link": "",
         "text": ""
     },
@@ -1100,10 +1101,12 @@
         "bait": "Pill Bug",
         "mooch": "",
         "ObtainedBy": "Purchased From:",
-        "NPC":"Synehill: Limsa Lominsa Lower Decks (6-11)",
-        "NPC1":"Merchant and Mender: Middle La Noscea (21-21)",
+        "NPC":      [
+                      "Synehill: Limsa Lominsa Lower Decks (6-11)",
+                      "Merchant and Mender: Middle La Noscea (21-21)"
+                    ],
         "BaitLink": "http://ffxiv.consolegameswiki.com/wiki/Pill_Bug",
-        "minGathering": "345",
+        "minGathering": 345,
         "link": "",
         "text": ""
     },
@@ -1120,7 +1123,7 @@
         "NPC1":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC2":"Merchant and Mender: Coerthas Central Highlands (26-27)",
         "BaitLink": "",
-        "minGathering": "347",
+        "minGathering": 347,
         "link": "",
         "text": ""
     },
@@ -1135,7 +1138,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Eastern La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "347",
+        "minGathering": 347,
         "link": "",
         "text": ""
     },
@@ -1151,7 +1154,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "348",
+        "minGathering": 348,
         "link": "",
         "text": ""
     },
@@ -1166,7 +1169,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Southern Thanalan (15-29)",
         "BaitLink": "",
-        "minGathering": "348",
+        "minGathering": 348,
         "link": "",
         "text": ""
     },
@@ -1182,7 +1185,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "348",
+        "minGathering": 348,
         "link": "",
         "text": ""
     },
@@ -1199,7 +1202,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "348",
+        "minGathering": 348,
         "link": "",
         "text": ""
     },
@@ -1215,7 +1218,7 @@
         "NPC":"Merchant and Mender: Lower La Noscea (21-21)",
         "NPC1":"Merchant and Mender: Western La Noscea (26-26)",
         "BaitLink": "",
-        "minGathering": "348",
+        "minGathering": 348,
         "link": "",
         "text": ""
     },
@@ -1235,7 +1238,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1253,7 +1256,7 @@
         "NPC2":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC3":"Merchant and Mender: Coerthas Central Highlands (21-21)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1270,7 +1273,7 @@
         "NPC1":"Merchant and Mender: Eastern La Noscea (30-31)",
         "NPC2":"Merchant and Mender: Southern Thanalan (18-12)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1287,7 +1290,7 @@
         "NPC1":"Merchant and Mender: Norhern Thanalan (20-30)",
         "NPC2":"Merchant and Mender: Coerthas Central Highlands (26-27)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1304,7 +1307,7 @@
         "NPC1":"Merchant and Mender: Norhern Thanalan (20-30)",
         "NPC2":"Merchant and Mender: Coerthas Central Highlands (26-27)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1321,7 +1324,7 @@
         "NPC1":"Merchant and Mender: Eastern La Noscea (30-31)",
         "NPC2":"Merchant and Mender: Southern Thanalan (18-12)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1338,7 +1341,7 @@
         "NPC1":"Outer La Noscea (21-21)",
         "NPC2":"Mor Dhona (30-12)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1356,7 +1359,7 @@
         "NPC2":"Merchant and Mender: Coerthas Central Highlands (13-15)",
         "NPC3":"Merchant and Mender: Mor Dhona (21-21)",
         "BaitLink": "",
-        "minGathering": "349",
+        "minGathering": 349,
         "link": "",
         "text": ""
     },
@@ -1373,7 +1376,7 @@
         "NPC1":"Merchant and Mender: Eastern La Noscea (30-31)",
         "NPC2":"Merchant and Mender: Southern Thanalan (18-12)",
         "BaitLink": "",
-        "minGathering": "350",
+        "minGathering": 350,
         "link": "",
         "text": ""
     },
@@ -1391,7 +1394,7 @@
         "NPC2":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC3":"Merchant and Mender: Coerthas Central Highlands (21-21)",
         "BaitLink": "",
-        "minGathering": "350",
+        "minGathering": 350,
         "link": "",
         "text": ""
     },
@@ -1411,7 +1414,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "351",
+        "minGathering": 351,
         "link": "",
         "text": ""
     },
@@ -1431,7 +1434,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "351",
+        "minGathering": 351,
         "link": "",
         "text": ""
     },
@@ -1451,7 +1454,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "351",
+        "minGathering": 351,
         "link": "",
         "text": ""
     },
@@ -1464,14 +1467,14 @@
         "bait": "Sinking Minnow",
         "mooch": "",
         "ObtainedBy": "Goldsmith Level 34",
-        "Material":"3x: Fire Shard",
-        "Material1":"4x: Wind Shard",
-        "Material2":"1x: Silver Ingot",
-        "Material3":"1x: Oak Lumber",
-        "Material4":"",
-        "Material5":"",
+        "Material": [
+                      "3x: Fire Shard",
+                      "4x: Wind Shard",
+                      "1x: Silver Ingot",
+                      "1x: Oak Lumber",
+                    ],
         "BaitLink": "",
-        "minGathering": "352",
+        "minGathering": 352,
         "link": "",
         "text": ""
     },
@@ -1491,7 +1494,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "353",
+        "minGathering": 353,
         "link": "",
         "text": ""
     },
@@ -1511,7 +1514,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "356",
+        "minGathering": 356,
         "link": "",
         "text": ""
     },
@@ -1529,7 +1532,7 @@
         "NPC2":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC3":"Merchant and Mender: Coerthas Central Highlands (21-21)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1546,7 +1549,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1563,7 +1566,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1580,7 +1583,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1597,7 +1600,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1614,7 +1617,7 @@
         "NPC1":"Yoyobasa: Ul'dah - Steps of Thal (14-10)",
         "NPC2":"Syneyhill: Limsa Lominsa Lower Decks (6-11)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1631,7 +1634,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "357",
+        "minGathering": 357,
         "link": "",
         "text": ""
     },
@@ -1646,7 +1649,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Eastern La Noscea (30-31)",
         "BaitLink": "",
-        "minGathering": "358",
+        "minGathering": 358,
         "link": "",
         "text": ""
     },
@@ -1662,7 +1665,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Coerthas Central Highlands (21-21)",
         "BaitLink": "",
-        "minGathering": "358",
+        "minGathering": 358,
         "link": "",
         "text": ""
     },
@@ -1678,7 +1681,7 @@
         "NPC":"Merchant and Mender: East Shroud (17-27)",
         "NPC1":"Merchant and Mender: Southern Thanalan (21-21)",
         "BaitLink": "",
-        "minGathering": "358",
+        "minGathering": 358,
         "link": "",
         "text": ""
     },
@@ -1694,7 +1697,7 @@
         "NPC":"Merchant and Mender: East Shroud (17-27)",
         "NPC1":"Merchant and Mender: Southern Thanalan (21-21)",
         "BaitLink": "",
-        "minGathering": "358",
+        "minGathering": 358,
         "link": "",
         "text": ""
     },
@@ -1709,7 +1712,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Southern Thanalan (15-29)",
         "BaitLink": "",
-        "minGathering": "359",
+        "minGathering": 359,
         "link": "",
         "text": ""
     },
@@ -1729,7 +1732,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "359",
+        "minGathering": 359,
         "link": "",
         "text": ""
     },
@@ -1746,7 +1749,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "359",
+        "minGathering": 359,
         "link": "",
         "text": ""
     },
@@ -1763,7 +1766,7 @@
         "NPC1":"Merchant and Mender: Central Thanalan (21-18)",
         "NPC2":"Merchant and Mender: Lower La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "359",
+        "minGathering": 359,
         "link": "",
         "text": ""
     },
@@ -1783,7 +1786,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "359",
+        "minGathering": 359,
         "link": "",
         "text": ""
     },
@@ -1796,10 +1799,12 @@
         "bait": "Pill Bug",
         "mooch": "Ocean cloud",
         "ObtainedBy": "Purchased From:",
-        "NPC":"Synehill: Limsa Lominsa Lower Decks (6-11)",
-        "NPC1":"Merchant and Mender: Middle La Noscea (21-21)",
+        "NPC":      [
+                      "Synehill: Limsa Lominsa Lower Decks (6-11)",
+                      "Merchant and Mender: Middle La Noscea (21-21)"
+                    ],
         "BaitLink": "http://ffxiv.consolegameswiki.com/wiki/Pill_Bug",
-        "minGathering": "360",
+        "minGathering": 360,
         "link": "",
         "text": ""
     },
@@ -1814,7 +1819,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Western La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "361",
+        "minGathering": 361,
         "link": "",
         "text": ""
     },
@@ -1829,7 +1834,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Western La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "361",
+        "minGathering": 361,
         "link": "",
         "text": ""
     },
@@ -1846,7 +1851,7 @@
         "NPC1":"Junkmonger: Upper La Noscea (21-21)",
         "NPC2":"Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "367",
+        "minGathering": 367,
         "link": "",
         "text": ""
     },
@@ -1866,7 +1871,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "367",
+        "minGathering": 367,
         "link": "",
         "text": ""
     },
@@ -1886,7 +1891,7 @@
         "Material4":"",
         "Material5":"",
         "BaitLink": "",
-        "minGathering": "368",
+        "minGathering": 368,
         "link": "",
         "text": ""
     },
@@ -1903,7 +1908,7 @@
         "NPC1":"Outer La Noscea (21-21)",
         "NPC2":"Mor Dhona (30-12)",
         "BaitLink": "",
-        "minGathering": "368",
+        "minGathering": 368,
         "link": "",
         "text": ""
     },
@@ -1918,7 +1923,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC": "Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "373",
+        "minGathering": 373,
         "description": "This is the description",
         "type": "shark",
         "link": "",
@@ -1935,7 +1940,7 @@
         "ObtainedBy": "Purchased From:",
         "NPC": "Merchant and Mender: Western Thanalan (12-13)",
         "BaitLink": "",
-        "minGathering": "373",
+        "minGathering": 373,
         "link": "",
         "text": ""
     },
@@ -1954,7 +1959,7 @@
         "NPC2":"Merchant and Mender: Southern Thanalan (15-29)",
         "NPC3":"Merchant and Mender: Coerthas Central Highlands (21-21)",
         "BaitLink": "",
-        "minGathering": "378",
+        "minGathering": 378,
         "link": "",
         "text": ""
     },
@@ -1972,7 +1977,7 @@
         "NPC1":"Outer La Noscea (21-21)",
         "NPC2":"Mor Dhona (30-12)",
         "BaitLink": "",
-        "minGathering": "381",
+        "minGathering": 381,
         "link": "",
         "text": ""
     },
@@ -1989,7 +1994,7 @@
         "NPC1":"Merchant and Mender: Eastern La Noscea (30-31)",
         "NPC2":"Merchant and Mender: Southern Thanalan (18-12)",
         "BaitLink": "",
-        "minGathering": "381",
+        "minGathering": 381,
         "link": "",
         "text": ""
     },
@@ -2004,6 +2009,6 @@
         "ObtainedBy": "Purchased From:",
         "NPC":"Merchant and Mender: Eastern La Noscea (21-21)",
         "BaitLink": "",
-        "minGathering": "384"
+        "minGathering": 384
     }
 ]
