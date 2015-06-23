@@ -50,7 +50,7 @@
         "NPC":    [
                     "Admiranda: Old Gridania (14-10)",
                     "Yoyobasa: Ul'dah - Steps of Thal (14-10)",
-                    "Syneyhill: Limsa Lominsa Lower Decks (6-11)",
+                    "Syneyhill: Limsa Lominsa Lower Decks (6-11)"
                   ],
         "BaitLink": "",
         "minGathering": 301,
@@ -70,7 +70,7 @@
                       "3x: Fire Shard",
                       "4x: Wind Shard",
                       "1x: Silver Ingot",
-                      "1x: Oak Lumber",
+                      "1x: Oak Lumber"
                     ],
         "BaitLink": "",
         "minGathering": 301,
@@ -1471,7 +1471,7 @@
                       "3x: Fire Shard",
                       "4x: Wind Shard",
                       "1x: Silver Ingot",
-                      "1x: Oak Lumber",
+                      "1x: Oak Lumber"
                     ],
         "BaitLink": "",
         "minGathering": 352,

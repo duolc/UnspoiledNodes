@@ -571,5 +571,74 @@
     "ClosestAetheryte":"The Hawthorne Hut",
     "MinGathering":"",
     "MinPerceptionforHQ":""
+  },
+  {
+    "Type":"Mining",
+    "Item":"Grade 4 Carbonized Matter",
+    "Slot":"1",
+    "SpawnTime":"1:00 PM",
+    "Zone":"Coerthas Central Highlands",
+    "Region":"Dragonhead",
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
+  },
+  {
+    "Type":"Mining",
+    "Item":"Grade 4 Carbonized Matter",
+    "Slot":"1",
+    "SpawnTime":"5:00 PM",
+    "Zone":"Coerthas Central Highlands",
+    "Region":"Dragonhead",
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
+  },
+  {
+    "Type":"Mining",
+    "Item":"Grade 4 Carbonized Matter",
+    "Slot":"1",
+    "SpawnTime":"9:00 PM",
+    "Zone":"Coerthas Central Highlands",
+    "Region":"Dragonhead",
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":"",
+    "Flag":"M"
+  },
+  {
+    "Type":"Botany",
+    "Item":"Grade 4 Carbonized Matter",
+    "Slot":"1",
+    "SpawnTime":"1:00 AM",
+    "Zone":"Coerthas Central Highlands",
+    "Region":"Dragonhead",
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
+  },
+  {
+    "Type":"Botany",
+    "Item":"Grade 4 Carbonized Matter",
+    "Slot":"1",
+    "SpawnTime":"5:00 AM",
+    "Zone":"Coerthas Central Highlands",
+    "Region":"Dragonhead",
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
+  },
+  {
+    "Type":"Botany",
+    "Item":"Grade 4 Carbonized Matter",
+    "Slot":"1",
+    "SpawnTime":"9:00 AM",
+    "Zone":"Coerthas Central Highlands",
+    "Region":"Dragonhead",
+    "ClosestAetheryte":"Camp Dragonhead",
+    "MinGathering":"",
+    "MinPerceptionforHQ":""
   }
 ]
