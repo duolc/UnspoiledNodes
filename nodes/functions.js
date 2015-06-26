@@ -340,4 +340,11 @@ function fn(e) {
         tooltip[i].style.left = e.pageX + 'px';
         tooltip[i].style.top = e.pageY + 'px';
     }
+};
+
+/*Australian Localization*/
+document.getElementById('Australia').onchange = function(){
+  var method = this.checked ? 'add':'remove';
+      document.body.classList[method]('my-class');
+      window.scrollTo(0, document.body.scrollHeight); 
 }
