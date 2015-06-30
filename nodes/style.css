@@ -612,21 +612,26 @@ a.nolink {
 
 
 /*Australian Localization*/
+/*
+.aususa {
+    display:none;
+}
 
+.aususa + label{
+    background:url('Images/Australia.png') no-repeat;
+    height: 160px;
+    width: 160px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
 
-
-
-.button
-	{
-		background: url("Images/Australia.png") no-repeat;
-		background-size: 50%;
-		height: 250px;
-		width: 250px;
-		display:inline-block;
-		padding: 0 0 0 0px;
-	}
-
-
+.aususa:checked + label{
+    background:url('Images/USAIcon.png') no-repeat;
+    height: 160px;
+    width: 160px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+}
 
 body.my-class {
 	-webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
@@ -635,3 +640,4 @@ body.my-class {
   -ms-transform: rotate(180deg);         /* IE9 */
   transform: rotate(180deg);             /* W3C compliant browsers */
 	}
+*/

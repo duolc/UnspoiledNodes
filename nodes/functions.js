@@ -343,8 +343,8 @@ function fn(e) {
 };
 
 /*Australian Localization*/
-document.getElementById('Australia').onchange = function(){
-  var method = this.checked ? 'add':'remove';
-      document.body.classList[method]('my-class');
-      window.scrollTo(0, document.body.scrollHeight);
-}
+// document.getElementById('Australia').onchange = function(){
+//   var method = this.checked ? 'add':'remove';
+//       document.body.classList[method]('my-class');
+//       window.scrollTo(0, document.body.scrollHeight);
+// };
