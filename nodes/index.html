@@ -42,7 +42,7 @@
 				<tr>
 					<td width="300px">
 						<div class="h1 mslide">
-							<label for=minelvl>Mining Level:&nbsp</label>
+							<label for=minelvl>Mining Gathering Level:&nbsp</label>
 							<output for=minelvl id=mngatherlvl>450</output>
 							<p>
 								<input class="minbar" type=range min=300 max=750 value=450 id=minelvl step=1 oninput="outputMineUpdate(value)">
@@ -52,7 +52,7 @@
 					<td ></td>
 					<td width="300px">
 						<div class="h1 bslide">
-							<label for=botlvl>Botany Level:&nbsp</label>
+							<label for=botlvl>Botany Gathering Level:&nbsp</label>
 							<output for=botlvl id=btgatherlvl>450</output>
 							<p>
 								<input class="botbar" type=range min=300 max=750 value=450 id=botlvl step=1 oninput="outputBotUpdate(value)">
@@ -83,7 +83,8 @@
 				<th width="326" scope="col">Zone</th>
 				<th width="300" scope="col">Region</th>
 				<th width="300" scope="col">Closest Aetheryte</th>
-				<th width="264" scope="col">Min Gathering</th>
+				<th width="100" scope="col">Level</th>
+				<th width="250" scope="col">Min Gathering</th>
 				<th width="404" scope="col">Min Perception for HQ</th>
 			</thead>
 			<tbody id="highlight">
@@ -95,6 +96,7 @@
 						<td>{{Zone}}</td>
 						<td>{{Region}}</td>
 						<td>{{ClosestAetheryte}}</td>
+						<td>{{Level}}</td>
 						<td>{{MinGathering}}</td>
 						<td>{{MinPerceptionforHQ}}</td>
 					</tr>
