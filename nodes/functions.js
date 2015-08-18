@@ -40,12 +40,13 @@ updateClock();
 
 // /*Build out Fishing Table from fishing.json*/
  $.getJSON('fishing.json', function(data) {
- 	var templateData = {fishes: data};
- 	var templateHtml = $('#fishingTable').html();
- 	var template = Handlebars.compile(templateHtml);
- 	var compiledTemplate = template(templateData);
- 	$('#fishinglist').replaceWith(compiledTemplate);
- 	// $('#fishing-container').html(compiledTemplate);
+   	var templateData = {fishes: data};
+   	var templateHtml = $('#fishingTable').html();
+   	var template = Handlebars.compile(templateHtml);
+   	var compiledTemplate = template(templateData);
+    setTimeout(function(){
+   	$('#fishinglist').replaceWith(compiledTemplate);},1000);
+   	// $('#fishing-container').html(compiledTemplate);
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
@@ -61,12 +62,12 @@ updateClock();
 
  /*Build out UnspoiledNodes Table from botmin.json*/
  $.getJSON('botmin.json', function(data) {
- 	var templateData = {nodes: data};
- 	var templateHtml = $('#nodesTable').html();
- 	var template = Handlebars.compile(templateHtml);
- 	var compiledTemplate = template(templateData);
- 	$('#unspoilednodeslist').replaceWith(compiledTemplate);
- 	//$('#fishing-container').html(compiledTemplate);
+   	var templateData = {nodes: data};
+   	var templateHtml = $('#nodesTable').html();
+   	var template = Handlebars.compile(templateHtml);
+   	var compiledTemplate = template(templateData);
+    setTimeout(function(){
+      $('#unspoilednodeslist').replaceWith(compiledTemplate)},1000);
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
@@ -85,8 +86,8 @@ updateClock();
  	var templateHtml = $('#levesTable').html();
  	var template = Handlebars.compile(templateHtml);
  	var compiledTemplate = template(templateData);
- 	$('#leveslist').replaceWith(compiledTemplate);
- 	//$('#fishing-container').html(compiledTemplate);
+  setTimeout(function(){
+ 	  $('#leveslist').replaceWith(compiledTemplate)},1000);
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
