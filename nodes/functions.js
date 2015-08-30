@@ -1,5 +1,6 @@
 // Eorzea Time
 // Thanks for figuring this out http://jsfiddle.net/jryansc/6r85j/
+
 var E_TIME = 20.5714285714;
 var global = {
   utcTime: null,
@@ -38,7 +39,10 @@ function padLeft(val){
 
 updateClock();
 
-// /*Build out Fishing Table from fishing.json*/
+// Building and Sorting Tables //
+
+/*Build out Fishing Table from fishing.json*/
+
  $.getJSON('fishing.json', function(data) {
    	var templateData = {fishes: data};
    	var templateHtml = $('#fishingTable').html();
@@ -50,17 +54,17 @@ updateClock();
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
+
  	$("#fishinglist")
  	.tablesorter({
  		headers: {
  			4: {sorter:false}
  		}
-
  	});
-
  });
 
  /*Build out UnspoiledNodes Table from botmin.json*/
+
  $.getJSON('botmin.json', function(data) {
    	var templateData = {nodes: data};
    	var templateHtml = $('#nodesTable').html();
@@ -71,16 +75,17 @@ updateClock();
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
+
  	$("#unspoilednodeslist")
  	.tablesorter({
  		headers: {
  			1: {sorter:false}
  		}
  	});
-
  });
 
  /*Build out Leve Table from leves.json*/
+
  $.getJSON('leves.json', function(data) {
  	var templateData = {leves: data};
  	var templateHtml = $('#levesTable').html();
@@ -91,13 +96,13 @@ updateClock();
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
+
  	$("#leveslist")
  	.tablesorter({
  		headers: {
  			4: {sorter:false}
  		}
  	});
-
  });
 
 /* Slide Bar and Filtering for Tables */
@@ -112,7 +117,7 @@ $('#minelvl').on('change', function(event) {
 	var curVal = parseInt(this.value);
 	$('.M').hide("slow");
 	$('.M').filter(function() {
-		return $('td:nth-child(7)', this).last().html() <= curVal;
+		return $('td:nth-child(8)', this).last().html() <= curVal;
 	}).show("slow");
 });
 
@@ -127,7 +132,7 @@ $('#botlvl').on('change', function(event) {
 	var curVal = parseInt(this.value);
 	$('.B').fadeOut("slow");
 	$('.B').filter(function() {
-		return $('td:nth-child(7)', this).last().html() <= curVal;
+		return $('td:nth-child(8)', this).last().html() <= curVal;
 	}).show("slow");
 });
 
@@ -147,6 +152,7 @@ $('#fshlvl').on('change', function(event) {
 });
 
 /*Show or Hide Mining*/
+
 $('#Mining').change(function () {
     if (!this.checked) $('.M, .mslide').fadeOut('slow');
     else {
@@ -158,17 +164,19 @@ $('#Mining').change(function () {
 });
 
 /*Show or Hide Botany*/
+
 $('#Botany').change(function () {
     if (!this.checked) $('.B, .bslide').fadeOut('slow');
     else {
         $('.B').filter(function() {
-		    return $('td:nth-child(7)', this).last().html() <= $('#botlvl').val();
+		    return $('td:nth-child(8)', this).last().html() <= $('#botlvl').val();
      }).fadeIn('slow');
         $('.bslide').fadeIn('slow');
   }
 });
 
 /*Show or Hide Fishing*/
+
 $('#Fishing').change(function () {
     if (!this.checked) $('.F, .fslide').fadeOut('slow');
     else {
@@ -180,11 +188,11 @@ $('#Fishing').change(function () {
 });
 
 /*Show or Hide Mooching*/
+
 $('#Mooch').change(function () {
     if (!this.checked) $('.MCH').fadeOut('slow');
     else $('.MCH').fadeIn('slow');
 });
-
 
 /* The Following Hides or Shows the Nodes based on Weather*/
 
@@ -267,7 +275,6 @@ $('#Gale').change(function () {
   }
 });
 
-
 $('#Gloom').change(function () {
     if (!this.checked) $('.Gloom').fadeOut('slow');
     else {
@@ -332,10 +339,9 @@ $('#Windy').change(function () {
 });
 
 /*tooltip Follows Cursor*/
+
 var tooltip = document.querySelectorAll('.tooltip');
-
 document.addEventListener('mousemove', fn, false);
-
 function fn(e) {
     for (var i=tooltip.length; i--;) {
         tooltip[i].style.left = e.pageX + 'px';
@@ -344,6 +350,7 @@ function fn(e) {
 };
 
 /*Australian Localization*/
+
 // document.getElementById('Australia').onchange = function(){
 //   var method = this.checked ? 'add':'remove';
 //       document.body.classList[method]('my-class');
