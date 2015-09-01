@@ -76,12 +76,6 @@ updateClock();
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
 
- 	$("#unspoilednodeslist")
- 	.tablesorter({
- 		headers: {
- 			1: {sorter:false}
- 		}
- 	});
  });
 
  /*Build out Leve Table from leves.json*/
