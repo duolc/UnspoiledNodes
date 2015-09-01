@@ -43,13 +43,13 @@ updateClock();
 
 /*Build out Fishing Table from fishing.json*/
 
+
  $.getJSON('fishing.json', function(data) {
    	var templateData = {fishes: data};
    	var templateHtml = $('#fishingTable').html();
    	var template = Handlebars.compile(templateHtml);
    	var compiledTemplate = template(templateData);
-    setTimeout(function(){
-   	$('#fishinglist').replaceWith(compiledTemplate);},1000);
+   	$('#fishinglist').replaceWith(compiledTemplate);
    	// $('#fishing-container').html(compiledTemplate);
 
  	/*Now add sortable table headers*/
@@ -70,12 +70,17 @@ updateClock();
    	var templateHtml = $('#nodesTable').html();
    	var template = Handlebars.compile(templateHtml);
    	var compiledTemplate = template(templateData);
-    setTimeout(function(){
-      $('#unspoilednodeslist').replaceWith(compiledTemplate)},1000);
+    $('#unspoilednodeslist').replaceWith(compiledTemplate);
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
 
+  $("#unspoilednodeslist")
+ 	.tablesorter({
+ 		headers: {
+ 			4: {sorter:false}
+ 		}
+ 	});
  });
 
  /*Build out Leve Table from leves.json*/
@@ -85,8 +90,7 @@ updateClock();
  	var templateHtml = $('#levesTable').html();
  	var template = Handlebars.compile(templateHtml);
  	var compiledTemplate = template(templateData);
-  setTimeout(function(){
- 	  $('#leveslist').replaceWith(compiledTemplate)},1000);
+ 	$('#leveslist').replaceWith(compiledTemplate);
 
  	/*Now add sortable table headers*/
  	/*Needs to run in this script or will not read table to make sortable*/
