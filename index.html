@@ -35,9 +35,9 @@
 					<td width="300px">
 						<div class="h1 mslide">
 							<label for=minelvl>Mining Level:&nbsp</label>
-							<output for=minelvl id=mngatherlvl>450</output>
+							<output for=minelvl id=mngatherlvl>525</output>
 							<p>
-								<input class="minbar" type=range min=300 max=500 value=450 id=minelvl step=1 oninput="outputMineUpdate(value)">
+								<input class="minbar" type=range min=300 max=750 value=525 id=minelvl step=1 oninput="outputMineUpdate(value)">
 							</p>
 						</div>
 					</td>
@@ -45,9 +45,9 @@
 					<td width="300px">
 						<div class="h1 bslide">
 							<label for=botlvl>Botany Level:&nbsp</label>
-							<output for=botlvl id=btgatherlvl>450</output>
+							<output for=botlvl id=btgatherlvl>525</output>
 							<p>
-								<input class="botbar" type=range min=300 max=500 value=450 id=botlvl step=1 oninput="outputBotUpdate(value)">
+								<input class="botbar" type=range min=300 max=750 value=525 id=botlvl step=1 oninput="outputBotUpdate(value)">
 							</p>
 						</div>
 					</td>
@@ -80,7 +80,7 @@
 		</thead>
 		<tbody id="highlight">
 			{{#each nodes}}
-				<tr class="{{#if Flag}}M{{else}}B{{/if}}"<>
+				<tr class="{{NodeClass}}">
 				 	<!-- <td>{{Type}}</td> -->
 					<td class="theitem">{{Item}}</td>
 					<td>{{Slot}}</td>

@@ -9,7 +9,9 @@
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
     "MinPerceptionforHQ":"",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -21,7 +23,9 @@
     "ClosestAetheryte":"Wineport",
     "MinGathering":"420",
     "MinPerceptionforHQ":"420",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -32,7 +36,10 @@
     "Region":"Nine Ivies",
     "ClosestAetheryte":"The Hawthorne Hut",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -44,7 +51,9 @@
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -55,7 +64,10 @@
     "Region":"Upper Paths",
     "ClosestAetheryte":"Camp Tranquil",
     "MinGathering":"353",
-    "MinPerceptionforHQ":"332"
+    "MinPerceptionforHQ":"332",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -66,7 +78,10 @@
     "Region":"Sorrel Haven ",
     "ClosestAetheryte":"Bentbranch Meadows",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -78,7 +93,9 @@
     "ClosestAetheryte":"Ceruleum Processing Plant ",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -90,7 +107,9 @@
     "ClosestAetheryte":"Ceruleum Processing Plant ",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -102,7 +121,9 @@
     "ClosestAetheryte":"Ceruleum Processing Plant ",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -113,7 +134,10 @@
     "Region":"Alder Springs",
     "ClosestAetheryte":"Fallgourd Float",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -125,7 +149,9 @@
     "ClosestAetheryte":"Black Brush Station",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -137,7 +163,9 @@
     "ClosestAetheryte":"Black Brush Station",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -149,7 +177,9 @@
     "ClosestAetheryte":"Black Brush Station",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -161,7 +191,9 @@
     "ClosestAetheryte":"Little Ala Mhingo",
     "MinGathering":"420",
     "MinPerceptionforHQ":"420",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -172,7 +204,10 @@
     "Region":"Zephyr Drift",
     "ClosestAetheryte":"Summerford Farms",
     "MinGathering":"420",
-    "MinPerceptionforHQ":"420"
+    "MinPerceptionforHQ":"420",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -184,7 +219,9 @@
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
     "MinPerceptionforHQ":"",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -196,7 +233,9 @@
     "ClosestAetheryte":"Horizon",
     "MinGathering":"353",
     "MinPerceptionforHQ":"332",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -207,7 +246,10 @@
     "Region":"Bloodshore",
     "ClosestAetheryte":"Costa del Sol",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -218,7 +260,10 @@
     "Region":"Bloodshore",
     "ClosestAetheryte":"Costa del Sol",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -229,7 +274,10 @@
     "Region":"The Bramble Patch",
     "ClosestAetheryte":"The Hawthorne Hut",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -241,7 +289,9 @@
     "ClosestAetheryte":"Camp Tranquil",
     "MinGathering":"353",
     "MinPerceptionforHQ":"332",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -253,7 +303,9 @@
     "ClosestAetheryte":"Camp Tranquil",
     "MinGathering":"353",
     "MinPerceptionforHQ":"332",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -264,7 +316,10 @@
     "Region":"Cedarwood",
     "ClosestAetheryte":"Moraby Drydocks",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -275,7 +330,10 @@
     "Region":"Greentear",
     "ClosestAetheryte":"Bentbranch Meadows",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -286,7 +344,10 @@
     "Region":"Bronze Lake",
     "ClosestAetheryte":"Camp Bronze Lake",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -297,7 +358,10 @@
     "Region":"Bronze Lake",
     "ClosestAetheryte":"Camp Bronze Lake",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -309,7 +373,9 @@
     "ClosestAetheryte":"Swiftperch",
     "MinGathering":"450",
     "MinPerceptionforHQ":"450",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -320,7 +386,10 @@
     "Region":"Quarterstone",
     "ClosestAetheryte":"Swiftperch",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -331,7 +400,10 @@
     "Region":"Quarterstone",
     "ClosestAetheryte":"Swiftperch",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -343,7 +415,9 @@
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
     "MinPerceptionforHQ":"",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -355,7 +429,9 @@
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
     "MinPerceptionforHQ":"",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -366,7 +442,10 @@
     "Region":"Bloodshore",
     "ClosestAetheryte":"Costa del Sol",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -377,7 +456,10 @@
     "Region":"Bloodshore",
     "ClosestAetheryte":"Costa del Sol",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -388,7 +470,10 @@
     "Region":"Providence Point",
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -399,7 +484,10 @@
     "Region":"The CookPot",
     "ClosestAetheryte":"Summerford Farms",
     "MinGathering":"408",
-    "MinPerceptionforHQ":"389"
+    "MinPerceptionforHQ":"389",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -410,7 +498,10 @@
     "Region":"Bentbranch",
     "ClosestAetheryte":"Bentbranch Meadows",
     "MinGathering":"420",
-    "MinPerceptionforHQ":"420"
+    "MinPerceptionforHQ":"420",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -421,7 +512,10 @@
     "Region":"Drybone",
     "ClosestAetheryte":"Camp Drybone",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -432,7 +526,10 @@
     "Region":"Raincatcher Gully",
     "ClosestAetheryte":"Wineport",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -443,7 +540,10 @@
     "Region":"Raincatcher Gully",
     "ClosestAetheryte":"Wineport",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -454,7 +554,10 @@
     "Region":"Dragonhead",
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -466,7 +569,9 @@
     "ClosestAetheryte":"Wineport",
     "MinGathering":"",
     "MinPerceptionforHQ":"",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -478,7 +583,9 @@
     "ClosestAetheryte":"Ceruleam Processing Plant",
     "MinGathering":"450",
     "MinPerceptionforHQ":"450",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -489,7 +596,10 @@
     "Region":"Whitebrim",
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -500,7 +610,10 @@
     "Region":"Nine Ivies",
     "ClosestAetheryte":"The Hawthorne Hut",
     "MinGathering":"450",
-    "MinPerceptionforHQ":"450"
+    "MinPerceptionforHQ":"450",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -512,7 +625,9 @@
     "ClosestAetheryte":"Moraby Drydocks",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -524,7 +639,9 @@
     "ClosestAetheryte":"Moraby Drydocks",
     "MinGathering":"408",
     "MinPerceptionforHQ":"389",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -536,7 +653,9 @@
     "ClosestAetheryte":"Summerford Farms",
     "MinGathering":"353",
     "MinPerceptionforHQ":"332",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Mining",
@@ -548,7 +667,9 @@
     "ClosestAetheryte":"Camp Dragonhead",
     "MinGathering":"",
     "MinPerceptionforHQ":"",
-    "Flag":"M"
+    "NodeClass":"M",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -559,7 +680,10 @@
     "Region":"The Honey Yard",
     "ClosestAetheryte":"The Hawthorne Hut",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   },
   {
     "Type":"Botany",
@@ -570,6 +694,9 @@
     "Region":"The Honey Yard",
     "ClosestAetheryte":"The Hawthorne Hut",
     "MinGathering":"",
-    "MinPerceptionforHQ":""
+    "MinPerceptionforHQ":"",
+    "NodeClass":"B",
+    "Scrips":"",
+    "Collectability":""
   }
 ]
