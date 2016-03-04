@@ -3,6 +3,7 @@
 		<meta charset="utf-8" description="FFXIV Resource for Unspoiled Nodes and Big Fishing spawns and locations Places.">
 		<title>Unspoiled Nodes</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 	</head>
 	<body id="visible">
 		<div class="navigation" align="center">
@@ -55,7 +56,7 @@
 		</table>
 		<div class="helper">Table headers are sortable.</div>
 		<div id="unspoilednodeslist" style="align:center">LOADING</div>
-		<div class="version">Version 2.5 - June 14, 2015</div>
+		<div class="version">Version 3.0 - March 3, 2016</div>
 		<div style="padding-top: 1%"><img class="roundedimg cntrimg" src="Images/choco.png" height="250" width="400"></div>
 		<div class="btt" align="center" margin-top="8px"><a href="#top">Go to top</a></div>
 
@@ -74,9 +75,10 @@
 			<th width="220" scope="col">Spawn Time</th>
 			<th width="326" scope="col">Zone</th>
 			<th width="300" scope="col">Region</th>
+			<th width="100" scope="col">Coordinate</th>
 			<th width="300" scope="col">Closest Aetheryte</th>
-			<th width="264" scope="col">Min Gathering</th>
-			<th width="404" scope="col">Min Perception for HQ</th>
+			<th width="100" scope="col">Min Gathering</th>
+			<th width="100" scope="col">Min Perception for HQ</th>
 		</thead>
 		<tbody id="highlight">
 			{{#each nodes}}
@@ -87,6 +89,7 @@
 					<td>{{SpawnTime}}</td>
 					<td>{{Zone}}</td>
 					<td>{{Region}}</td>
+					<td>{{Coordinate}}</td>
 					<td>{{ClosestAetheryte}}</td>
 					<td>{{MinGathering}}</td>
 					<td>{{MinPerceptionforHQ}}</td>
