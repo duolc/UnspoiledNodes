@@ -1,0 +1,52 @@
+4 Collect, 250 Appraisal potency:
+
+Toil of the Pioneer
+Discerning Eye
+Methodical Appraisal
+Methodical Appraisal
+Collect
+Collect
+Collect
+Collect
+(Macro possible?) If you know of a 4 collect rotation with higher than 250 appraisal potency AT 600 GP, please let me know!
+
+3 Collect, 350 Appraisal potency:
+
+Toil of the Pioneer
+Discerning Eye
+Methodical Appraisal
+Methodical Appraisal
+Methodical Appraisal
+Collect
+Collect
+Collect
+(Macro possible?) If you know of a 3 collect rotation with higher than 350 appraisal potency AT 600 GP, please let me know!
+
+2 Collect, 450 Appraisal potency:
+
+Reveal with a hit!
+Discerning Eye
+Methodical Appraisal
+Discerning Eye
+Methodical Appraisal
+Discerning Eye
+Methodical Appraisal
+Collect
+Collect
+Alternatively: Toil, Deep, Method x4, Collect x2 (400 potency, but executes a lot faster!)
+
+(Macro possible?) If you know of a 2 collect rotation with higher than 450 appraisal potency AT 600 GP, please let me know!
+
+1 Collect  Appraisal potency:
+
+Reveal with a hit!
+Discerning Eye
+Methodical Appraisal
+Discerning Eye
+Methodical Appraisal
+Utmost Caution
+Methodical Appraisal
+Utmost Caution
+Methodical Appraisal
+Collect
+(Macro possible?) If you know of a 2 collect rotation with higher than 500 appraisal potency AT 600 GP, please let me know! 

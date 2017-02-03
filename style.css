@@ -6,7 +6,7 @@ V-1.0*/
 
 /* Force Scroll Bar to Show and then style it accordingly */
 html {
-		overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -20,55 +20,55 @@ html {
 
 ::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7);
-		border-radius: 6px;
+	border-radius: 6px;
 }
 
 /* General Styling Goes Here */
 body {
-		background-color: #212121;
+	background-color: #212121;
 }
 
 .h1 {
-		font-family:Impact, Charcoal, sans-serif;
-		padding-top: 1%;
-		color: white;
-		opacity: .7;
-		text-align: center;
-		font-size: 26px;
-		text-decoration: underline;
+	font-family:Impact, Charcoal, sans-serif;
+	padding-top: 1%;
+	color: white;
+	opacity: .7;
+	text-align: center;
+	font-size: 26px;
+	text-decoration: underline;
 }
 
 .h2 {
-		font-family:Impact, Charcoal, sans-serif;
-		padding-top: 5%;
-		color: white;
-		opacity: .7;
-		text-align: center;
-		font-size: 20px;
+	font-family:Impact, Charcoal, sans-serif;
+	padding-top: 5%;
+	color: white;
+	opacity: .7;
+	text-align: center;
+	font-size: 20px;
 }
 
 .planned {
-		color: white;
-		margin-left: 10%;
-		margin-right: 10%;
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .version {
-		color: gray;
-		text-align: center;
-		padding-top: 1%;
+	color: gray;
+	text-align: center;
+	padding-top: 1%;
 }
 
 .roundedimg {
-		border:0px solid;
-		border-radius: 25px;
-		overflow: hidden;
-		box-shadow:0 0 25px #000;
+	border:0px solid;
+	border-radius: 25px;
+	overflow: hidden;
+	box-shadow:0 0 25px #000;
 }
 
 .cntrimg {
-		display:block;
-		margin-left: auto;
+	display:block;
+	margin-left: auto;
     margin-right: auto;
 }
 
@@ -92,17 +92,17 @@ body {
 
 /*These are the Selector Buttons*/
 .M {
-		background-color:#4E342E;
-		color: #D7CCC8;
+	background-color:#4E342E;
+	color: #D7CCC8;
 }
 
 .B	{
-		background-color:#597A41;
+	background-color:#597A41;
 }
 
 .F {
-		background-color:#003366;
-		color: #D7CCC8;
+	background-color:#003366;
+	color: #D7CCC8;
 }
 
 .fishinghole {
@@ -114,60 +114,67 @@ body {
     display:none;
     position:absolute;
     border:1px solid #000;
-		background:white;
+	background:white;
 
 }
 
 .nodetier {
-		margin:4px;
-		background-color:#2E2E2E;
-		border-radius:5px;
-		border:1px solid #D0D0D0;
-		overflow:auto;
-		float:left;
-		width:175px;
-		color: white;
+	margin:4px;
+	background-color:#2E2E2E;
+	border-radius:5px;
+	border:1px solid #D0D0D0;
+	overflow:auto;
+	float:left;
+	width:175px;
+	color: white;
 }
 
 .weatherbutton {
-		margin:4px;
-		background-color:#2E2E2E;
-		border-radius:5px;
-		border:1px solid #D0D0D0;
-		overflow:auto;
-		float:left;
-		width:175px;
-		color: white;
+	margin:4px;
+	background-color:#2E2E2E;
+	border-radius:5px;
+	border:1px solid #D0D0D0;
+	overflow:auto;
+	float:left;
+	width:175px;
+	color: white;
 }
 
  /* The Styling for the Clock and Clock Label */
 .clock {
-		font-family:Impact, Charcoal, sans-serif;
-		font-size:50px;
-		text-align: center;
-		color:#FFF;
-		opacity:.75;
-		padding-top: 5px;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:50px;
+	text-align: center;
+	color:#FFF;
+	opacity:.75;
+	padding-top: 5px;
 }
 
 /*Table Style*/
 th, td {
-		padding: 2px;
+	padding: 2px;
 }
 
 .maintable {
-		font-size:16px;
-		padding: 1px;
-		border:5px solid rgba(14,14,14,0.46);
-		position: relative;
-		float: left;
-		margin-left:5%;
-		margin-right:5%;
+	font-size:16px;
+	padding: 1px;
+	border:5px solid rgba(14,14,14,0.46);
+	position: relative;
+	float: left;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+/*Selectors for Class Buttons at Top*/
+
+.classselect {
+	width: 80%;
+	display: inline-block;
 }
 
 /* Select Botany Button */
 .bb {
-		margin:4px;
+	margin:4px;
     background-color:#597A41;
     border-radius:5px;
     border:1px solid #D0D0D0;
@@ -177,16 +184,17 @@ th, td {
 
 /* Select Mining Button */
 .mb {
-		margin:4px;
+	margin:4px;
     background-color:#4E342E;
     border-radius:5px;
     border:1px solid #D0D0D0;
     overflow:auto;
-    float:left;
-}
+	text-align: center;
+    }
+
 /* Select Fishing Button */
 .fb {
-		margin:4px;
+	margin:4px;
     background-color:#003366;
     border-radius:5px;
     border:1px solid #D0D0D0;
@@ -196,7 +204,7 @@ th, td {
 
 /* Show/Hide Mooch Button */
 .mooch {
-		margin:4px;
+	margin:4px;
     background-color:#003366;
     border-radius:5px;
     border:1px solid #D0D0D0;
@@ -206,21 +214,21 @@ th, td {
 
 /* Style Checkboxes to appear as buttons */
 .bb:hover, .mb:hover, .fb:hover, .nodetier:hover, .weatherbutton:hover{
-		background:white;
-		color:black;
-		box-shadow:inset 0 0 15px #000;
+	background:white;
+	color:black;
+	box-shadow:inset 0 0 15px #000;
 }
 
 .bb label span, .mb label span, .fb label span, .weatherbutton label span {
   	text-align:center;
-		padding:5px 75px;
-		display:block;
+	padding:5px 75px;
+	display:block;
 }
 
 .nodetier label span {
-		display:block;
-		text-align:center;
-		padding:5px;
+	display:block;
+	text-align:center;
+	padding:5px;
 }
 
 /*Give Checked Buttons an innerglow*/
@@ -241,36 +249,36 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 /* Navigation Menu */
 .navigation {
-		padding: 10px;
-		border-color: rgba(255, 255, 255, 0.2);
-		border-style: double none double none;
-		margin-right: 10%;
-		margin-left: 10%;
+	padding: 10px;
+	border-color: rgba(255, 255, 255, 0.2);
+	border-style: double none double none;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .navigation span {
-		margin-right: 20px;
+	margin-right: 20px;
 }
 
 .navigation a, .btt a {
-		font-family: Arial Narrow,Arial,sans-serif;
-		text-align: center;
-		font-size: 18px;
-		color:rgba(255, 255, 255, 0.7);
-		text-decoration: none;
-		padding: 15px;
+	font-family: Arial Narrow,Arial,sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color:rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+	padding: 15px;
 }
 
 .navigation a:hover, .btt a:hover {
-		text-shadow:0px 0px 10px #000;
-		background-color:rgba(255, 255, 255, 0.7);
-		color: black;
-		border-radius: 25px;
-		padding: 5px 15px 5px 15px;
+	text-shadow:0px 0px 10px #000;
+	background-color:rgba(255, 255, 255, 0.7);
+	color: black;
+	border-radius: 25px;
+	padding: 5px 15px 5px 15px;
 }
 
 .btt{
-		margin: 2%;
+	margin: 2%;
 }
 
 /*Style For SlideBar On Fishing Page */
@@ -285,83 +293,83 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 }
 
 .fshbar::-webkit-slider-runnable-track {
-  	width: 100%;
-  	height: 8.4px;
-  	cursor: pointer;
-  	animate: 0.2s;
-  	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  	background: #003366;
-  	border-radius: 1.3px;
-  	border: 0.2px solid #010101;
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #003366;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .fshbar::-webkit-slider-thumb {
-	  height: 32px;
-	  width: 32px;
-	  background-image:url('/Images/Fisher_Icon_8.png');
-	  cursor: pointer;
-	  -webkit-appearance: none;
-	  margin-top: -14px;
+	height: 32px;
+	width: 32px;
+	background-image:url('/Images/Fisher_Icon_8.png');
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -14px;
 }
 
 .fshbar:focus::-webkit-slider-runnable-track {
-		background: rgba(0, 54, 101, 0.91);
+	background: rgba(0, 54, 101, 0.91);
 }
 
 .fshbar::-moz-range-track {
-	  width: 50%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  background: #3071a9;
-	  border-radius: 1.3px;
-	  border: 0.2px solid #010101;
+	width: 50%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .fshbar::-moz-range-thumb {
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  border: 1px solid #000000;
-	  height: 36px;
-	  width: 16px;
-	  border-radius: 3px;
-	  background: #ffffff;
-	  cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 36px;
+	width: 16px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
 }
 
 .fshbar::-ms-track {
-	  width: 50%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  background: transparent;
-	  border-color: transparent;
-	  border-width: 16px 0;
-	  color: transparent;
+	width: 50%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
 }
 
 .fshbar::-ms-fill-lower {
-	  background: #2a6495;
-	  border: 0.2px solid #010101;
-	  border-radius: 2.6px;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .fshbar::-ms-fill-upper {
-	  background: #3071a9;
-	  border: 0.2px solid #010101;
-	  border-radius: 2.6px;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .fshbar::-ms-thumb {
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  border: 1px solid #000000;
-	  height: 36px;
-	  width: 16px;
-	  border-radius: 3px;
-	  background: #ffffff;
-	  cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 36px;
+	width: 16px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
 }
 
 .fshbar:focus::-ms-fill-lower {
@@ -374,9 +382,9 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 /*Style For Mining SlideBar On Main Page */
 .minbar {
-	  -webkit-appearance: none;
-	  margin: 18px 0;
-	  width: 100%;
+	-webkit-appearance: none;
+	margin: 18px 0;
+	width: 100%;
 }
 
 .minbar:focus {
@@ -385,21 +393,21 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 .minbar::-webkit-slider-runnable-track {
   	width: 100%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  background: #4E342E;
-	  border-radius: 1.3px;
-	  border: 0.2px solid #010101;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #4E342E;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .minbar::-webkit-slider-thumb {
-	  height: 32px;
-	  width: 32px;
-	  background-image:url('/Images/Miner_Icon_8.png');
-	  cursor: pointer;
-	  -webkit-appearance: none;
+	height: 32px;
+	width: 32px;
+	background-image:url('/Images/Miner_Icon_8.png');
+	cursor: pointer;
+	-webkit-appearance: none;
   	margin-top: -14px;
 }
 
@@ -408,58 +416,58 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 }
 
 .minbar::-moz-range-track {
-	  width: 50%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  background: #4E342E;
-	  border-radius: 1.3px;
-	  border: 0.2px solid #010101;
+	width: 50%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #4E342E;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .minbar::-moz-range-thumb {
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  border: 1px solid #000000;
-	  height: 36px;
-	  width: 16px;
-	  border-radius: 3px;
-	  background: #ffffff;
-	  cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 36px;
+	width: 16px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
 }
-	.minbar::-ms-track {
-	  width: 50%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  background: transparent;
-	  border-color: transparent;
-	  border-width: 16px 0;
-	  color: transparent;
+.minbar::-ms-track {
+	width: 50%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
 }
 
 .minbar::-ms-fill-lower {
-	  background: #2a6495;
-	  border: 0.2px solid #010101;
-	  border-radius: 2.6px;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .minbar::-ms-fill-upper {
-	  background: #3071a9;
-	  border: 0.2px solid #010101;
-	  border-radius: 2.6px;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .minbar::-ms-thumb {
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  border: 1px solid #000000;
-	  height: 36px;
-	  width: 16px;
-	  border-radius: 3px;
-	  background: #ffffff;
-	  cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 36px;
+	width: 16px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
 }
 
 .minbar:focus::-ms-fill-lower {
@@ -472,9 +480,9 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 /*Style For Botany SlideBar On Main Page */
 .botbar {
-	  -webkit-appearance: none;
-	  margin: 18px 0;
-	  width: 100%;
+	-webkit-appearance: none;
+	margin: 18px 0;
+	width: 100%;
 }
 
 .botbar:focus {
@@ -482,83 +490,83 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 }
 
 .botbar::-webkit-slider-runnable-track {
-	  width: 100%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  background: #597A41;
-	  border-radius: 1.3px;
-	  border: 0.2px solid #010101;
+	width: 100%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #597A41;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .botbar::-webkit-slider-thumb {
-	  height: 32px;
-	  width: 32px;
-	  background-image:url('/Images/Botanist_Icon_8.png');
-	  cursor: pointer;
-	  -webkit-appearance: none;
-	  margin-top: -14px;
+	height: 32px;
+	width: 32px;
+	background-image:url('/Images/Botanist_Icon_8.png');
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -14px;
 }
 
 .botbar:focus::-webkit-slider-runnable-track {
-  	background: #597A41;
+	background: #597A41;
 }
 
 .botbar::-moz-range-track {
-	  width: 50%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  background: #3071a9;
-	  border-radius: 1.3px;
-	  border: 0.2px solid #010101;
+	width: 50%;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border-radius: 1.3px;
+	border: 0.2px solid #010101;
 }
 
 .botbar::-moz-range-thumb {
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  border: 1px solid #000000;
-	  height: 36px;
-	  width: 16px;
-	  border-radius: 3px;
-	  background: #ffffff;
-	  cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 36px;
+	width: 16px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
 }
 
 .botbar::-ms-track {
   	width: 50%;
-	  height: 8.4px;
-	  cursor: pointer;
-	  animate: 0.2s;
-	  background: transparent;
-	  border-color: transparent;
-	  border-width: 16px 0;
-	  color: transparent;
+	height: 8.4px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
 }
 
 .botbar::-ms-fill-lower {
-	  background: #2a6495;
-	  border: 0.2px solid #010101;
-	  border-radius: 2.6px;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #2a6495;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .botbar::-ms-fill-upper {
-	  background: #3071a9;
-	  border: 0.2px solid #010101;
-	  border-radius: 2.6px;
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	background: #3071a9;
+	border: 0.2px solid #010101;
+	border-radius: 2.6px;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .botbar::-ms-thumb {
-	  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-	  border: 1px solid #000000;
-	  height: 36px;
-	  width: 16px;
-	  border-radius: 3px;
-	  background: #ffffff;
-	  cursor: pointer;
+	box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+	border: 1px solid #000000;
+	height: 36px;
+	width: 16px;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
 }
 
 .botbar:focus::-ms-fill-lower {
@@ -571,19 +579,19 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 /*Sortable table Header Style*/
 table.tablesorter thead tr .header {
-		cursor: ns-resize;
+	cursor: ns-resize;
 }
 
 table.tablesorter thead tr .headerSortUp {
-		cursor: s-resize;
+	cursor: s-resize;
 }
 
 table.tablesorter thead tr .headerSortDown {
-		cursor: n-resize;
+	cursor: n-resize;
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-		background-color: #8dbdd8;
+	background-color: #8dbdd8;
 }
 
 /*Tool Tip Style*/
@@ -592,20 +600,20 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 .tooltip {
-		color:White;
-		font-size: small;
+	color:White;
+	font-size: small;
     display: none;
-		background-color: #3465A4;
-		border: 1px groove white;
-		border-radius: 5px;
+	background-color: #3465A4;
+	border: 1px groove white;
+	border-radius: 5px;
     margin-left: 50px;
-		margin-top:-100px;
+	margin-top:-100px;
     padding: 0px 25px 0px 0px;
     position: absolute;
     z-index: 1000;
 }
 
 a.nolink {
-		text-decoration: inherit;
-		color: inherit;
+	text-decoration: inherit;
+	color: inherit;
 	}
